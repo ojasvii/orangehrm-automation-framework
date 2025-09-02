@@ -1,28 +1,32 @@
 package org.orangehrm.tests;
 
+import com.orangehrm.pages.LoginPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
+public class LoginTest extends BaseTest{
 
-public class LoginTest {
 
+    LoginPage loginPage;
+
+    @BeforeMethod
+    public void setUpPages() {
+          loginPage  =new LoginPage(driver);
+    }
     //    Positive test cases
     @Test
     public void login() throws InterruptedException {
+        loginPage.enterUsername("Admin");
+        loginPage.enterPassword("admin123");
+        loginPage.clickSubmit();
 
-        WebDriver driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.manage().window().maximize();
-        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-
-        driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin");
-        driver.findElement(By.xpath("//input[@name='password']")).sendKeys("admin123");
-        driver.findElement(By.xpath("//button[@type='submit']")).click();
-
+        Thread.sleep(5000);
         String currentUrl = driver.getCurrentUrl();
         System.out.println("dashboard url : " + currentUrl );
         String expectedUrl = "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index";
@@ -30,21 +34,15 @@ public class LoginTest {
 
         driver.findElement(By.xpath("//li[@class='oxd-userdropdown']")).click();
         driver.findElement(By.xpath("//a[contains(text(),'Logout')]")).click();
-        Thread.sleep(5000);
-        driver.quit();
+
     }
 
 //    Negative test case
 
     @Test
-    public void invalidLogin() {
-        WebDriver driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-        driver.findElement(By.xpath("//button[@type='submit']")).click();
-        driver.quit();
-
-
+    public void invalidLogin() throws InterruptedException {
+        Thread.sleep(5000);
+        loginPage.clickSubmit();
     }
 
 
