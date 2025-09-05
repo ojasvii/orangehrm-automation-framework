@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+@Test
 public class LoginTest extends BaseTest{
 
 
@@ -12,12 +13,15 @@ public class LoginTest extends BaseTest{
 
     @BeforeMethod
     public void setUpPages() {
+        System.out.println("Calling the login page. ");
           loginPage  =new LoginPage(driver);
+        System.out.println("Called the login page.");
     }
 
     //    Positive test cases
     @Test
     public void login() throws InterruptedException {
+        System.out.println("Calling hte username function");
         loginPage.enterUsername("Admin");
         loginPage.enterPassword("admin123");
         loginPage.clickSubmit();

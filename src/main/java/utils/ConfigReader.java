@@ -2,6 +2,7 @@ package utils;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Properties;
 
 public class ConfigReader {
@@ -19,16 +20,19 @@ public class ConfigReader {
 
         try {
 //             Default environment
-//            if (env.isEmpty() || env == null) {
-//                env = "qa";
-//            }
+            if (env == null || env.isEmpty()) {
+                System.out.println("Environment not set, defaulting to QA");
+                env = "qa";
+            }
 
-//            String path = "src/main/resources/config-" + env.toLowerCase() + ".properties";
-            String path = "src/main/resources/config-qa.properties";
+            String path = "src/main/resources/config-" + env.toLowerCase() + ".properties";
+//            String path = "src/main/resources/config-qa.properties";
             System.out.println("Loading config file:" + path);
 
             FileInputStream fis = new FileInputStream(path);
             properties.load(fis);
+
+
 
         }catch(IOException e){
             e.printStackTrace();

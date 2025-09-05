@@ -11,11 +11,15 @@ public class LoginPage extends BasePage{
     private By loginbutton = By.xpath("//button[@type='submit']");
 
     public LoginPage(WebDriver driver){
+
         super(driver);
+        System.out.println("Called the base page.");
     }
 
     public void enterUsername(String username){
+        System.out.println("username in loginpage");
         type(usernamefield,username);
+        System.out.println("0===================");
     }
 
     public void enterPassword(String password){

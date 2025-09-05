@@ -20,6 +20,7 @@ public class BasePage {
     BasePage(WebDriver driver){
         this.driver =driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        System.out.println("Webdriver driver initialized");
     }
 
     //Generic click
@@ -36,6 +37,8 @@ public class BasePage {
 
     // generic current url
     public void verifyCurrentUrl(String expectedUrl) {
+        // Wait until URL matches
+        wait.until(ExpectedConditions.urlToBe(expectedUrl));
         String actualUrl = driver.getCurrentUrl();
         System.out.println("Actual URL: " + actualUrl);
         Assert.assertEquals(actualUrl, expectedUrl, "URL verification failed!");
