@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
+
 
 import java.time.Duration;
 
@@ -36,12 +36,12 @@ public class BasePage {
     }
 
     // generic current url
-    public void verifyCurrentUrl(String expectedUrl) {
+    public String getCurrentUrlAfterWait(String expectedUrl) {
         // Wait until URL matches
         wait.until(ExpectedConditions.urlToBe(expectedUrl));
         String actualUrl = driver.getCurrentUrl();
         System.out.println("Actual URL: " + actualUrl);
-        Assert.assertEquals(actualUrl, expectedUrl, "URL verification failed!");
+        return actualUrl;   // return instead of assert
     }
 
 
