@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import utils.TestDataProvider;
 
@@ -12,7 +13,7 @@ import java.io.IOException;
 import java.util.Hashtable;
 
 
-
+@Listeners({listeners.TestListener.class, listeners.RetryListener.class})
 public class LoginTest extends BaseTest{
 
 
@@ -22,7 +23,7 @@ public class LoginTest extends BaseTest{
     @BeforeMethod
     public void setUpPages() {
         System.out.println("Calling the login page. ");
-          loginPage  =new LoginPage(driver);
+          loginPage  =new LoginPage(driver,test);
         System.out.println("Called the login page.");
     }
 

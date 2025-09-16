@@ -1,49 +1,74 @@
 package com.orangehrm.pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+import utils.LogUtil;
 
 import java.time.Duration;
 
-// this page is for common functions.
-
 public class BasePage {
-
 
     protected WebDriver driver;
     protected WebDriverWait wait;
+    protected ExtentTest test;
 
-    BasePage(WebDriver driver){
-        this.driver =driver;
+    public BasePage(WebDriver driver, ExtentTest test) {
+        this.driver = driver;
+        this.test = test;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        System.out.println("Webdriver driver initialized");
+        LogUtil.info("WebDriver initialized in BasePage");
+        if (test != null) {
+            test.log(Status.INFO, "WebDriver initialized in BasePage");
+        }
     }
 
-    //Generic click
-    public void click(By locator){
-        wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
+    // ✅ Highlight element before interaction
+    private WebElement highlightElement(By locator) {
+        WebElement element = driver.findElement(locator);
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+
+        try {
+            js.executeScript("arguments[0].style.border='3px solid red'", element);
+            Thread.sleep(200); // small flash
+            js.executeScript("arguments[0].style.border=''", element);
+        } catch (Exception e) {
+            LogUtil.error("Highlighting failed: " + e.getMessage());
+        }
+        return element;
     }
 
-    // Generic type
-    public void type(By locator, String text){
-        WebElement element  = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-        element.clear();
+    // ✅ Generic click
+    public void click(By locator) {
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+        highlightElement(locator).click();
+        LogUtil.info("Clicked element: " + locator.toString());
+        if (test != null) {
+            test.log(Status.PASS, "Clicked element: " + locator.toString());
+        }
+    }
+
+    // ✅ Generic type
+    public void type(By locator, String text) {
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        highlightElement(locator).clear();
         element.sendKeys(text);
+        LogUtil.info("Typed '" + text + "' into: " + locator.toString());
+        if (test != null) {
+            test.log(Status.PASS, "Typed '" + text + "' into: " + locator.toString());
+        }
     }
 
-    // generic current url
+    // ✅ Generic current url
     public String getCurrentUrlAfterWait(String expectedUrl) {
-        // Wait until URL matches
         wait.until(ExpectedConditions.urlToBe(expectedUrl));
         String actualUrl = driver.getCurrentUrl();
-        System.out.println("Actual URL: " + actualUrl);
-        return actualUrl;   // return instead of assert
+        LogUtil.info("Expected URL: " + expectedUrl + " | Actual URL: " + actualUrl);
+        if (test != null) {
+            test.log(Status.INFO, "Expected URL: " + expectedUrl + " | Actual URL: " + actualUrl);
+        }
+        return actualUrl;
     }
-
-
-
 }
