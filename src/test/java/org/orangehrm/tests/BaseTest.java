@@ -89,77 +89,18 @@ public class BaseTest {
 //        }
 //    }
 
-//    @AfterMethod(alwaysRun = true)
-//    public void tearDown(ITestResult result) {
-//        String screenshotPath = null;
-//
-//        WebElement failedElement = null;
-//
-//        try {
-//            // Capture screenshot for FAILURE or SKIP or any throwable
-//            if (result.getStatus() == ITestResult.FAILURE || result.getStatus() == ITestResult.SKIP
-//                    || result.getThrowable() != null) {
-//                screenshotPath = ScreenshotUtil.captureScreenshot(driver, result.getName());
-//            }
-//
-//            // FAILURE
-//            if (result.getStatus() == ITestResult.FAILURE) {
-//                test.fail("Test Failed: " + (result.getThrowable() != null ? result.getThrowable() : "Unknown error"));
-//                if (screenshotPath != null) {
-//                    test.addScreenCaptureFromPath(screenshotPath);
-//                }
-//                LogUtil.error("FAILED: " + result.getName(), result.getThrowable());
-//
-//                // SUCCESS
-//            } else if (result.getStatus() == ITestResult.SUCCESS) {
-//                test.pass("Test Passed");
-//                LogUtil.info("PASSED: " + result.getName());
-//
-//                // SKIPPED
-//            } else if (result.getStatus() == ITestResult.SKIP) {
-//                test.skip("Test Skipped: " + (result.getThrowable() != null ? result.getThrowable() : "Skipped without exception"));
-//                if (screenshotPath != null) {
-//                    test.addScreenCaptureFromPath(screenshotPath);
-//                }
-//                LogUtil.warn("SKIPPED: " + result.getName());
-//
-//                // Any other unexpected case
-//            } else {
-//                test.warning("Test status unknown: " + result.getName());
-//                if (screenshotPath != null) {
-//                    test.addScreenCaptureFromPath(screenshotPath);
-//                }
-//                LogUtil.warn("UNKNOWN STATUS: " + result.getName());
-//            }
-//
-//        } catch (Exception e) {
-//            LogUtil.error("Error in tearDown reporting", e);
-//        } finally {
-//            if (driver != null) {
-//                driver.quit();
-//                LogUtil.info("Browser closed for test: " + result.getName());
-//            }
-//        }
-//    }
-
     @AfterMethod(alwaysRun = true)
     public void tearDown(ITestResult result) {
         String screenshotPath = null;
+
         WebElement failedElement = null;
 
         try {
-            // Check if the test class has a 'failedElement' field (optional)
-            Object testClassInstance = result.getInstance();
-            try {
-                failedElement = (WebElement) testClassInstance.getClass()
-                        .getDeclaredField("failedElement").get(testClassInstance);
-            } catch (NoSuchFieldException | IllegalAccessException e) {
-                // No failedElement declared in the test – ignore
-                failedElement = null;
+            // Capture screenshot for FAILURE or SKIP or any throwable
+            if (result.getStatus() == ITestResult.FAILURE || result.getStatus() == ITestResult.SKIP
+                    || result.getThrowable() != null) {
+                screenshotPath = ScreenshotUtil.captureScreenshot(driver, result.getName());
             }
-
-            // Capture screenshot with optional highlight
-            screenshotPath = ScreenshotUtil.captureScreenshot(driver, result.getName(), failedElement);
 
             // FAILURE
             if (result.getStatus() == ITestResult.FAILURE) {
@@ -182,7 +123,7 @@ public class BaseTest {
                 }
                 LogUtil.warn("SKIPPED: " + result.getName());
 
-                // UNKNOWN
+                // Any other unexpected case
             } else {
                 test.warning("Test status unknown: " + result.getName());
                 if (screenshotPath != null) {
@@ -200,6 +141,65 @@ public class BaseTest {
             }
         }
     }
+
+//    @AfterMethod(alwaysRun = true)
+//    public void tearDown(ITestResult result) {
+//        String screenshotPath = null;
+//        WebElement failedElement = null;
+//
+//        try {
+//            // Check if the test class has a 'failedElement' field (optional)
+//            Object testClassInstance = result.getInstance();
+//            try {
+//                failedElement = (WebElement) testClassInstance.getClass()
+//                        .getDeclaredField("failedElement").get(testClassInstance);
+//            } catch (NoSuchFieldException | IllegalAccessException e) {
+//                // No failedElement declared in the test – ignore
+//                failedElement = null;
+//            }
+//
+//            // Capture screenshot with optional highlight
+//            screenshotPath = ScreenshotUtil.captureScreenshot(driver, result.getName(), failedElement);
+//
+//            // FAILURE
+//            if (result.getStatus() == ITestResult.FAILURE) {
+//                test.fail("Test Failed: " + (result.getThrowable() != null ? result.getThrowable() : "Unknown error"));
+//                if (screenshotPath != null) {
+//                    test.addScreenCaptureFromPath(screenshotPath);
+//                }
+//                LogUtil.error("FAILED: " + result.getName(), result.getThrowable());
+//
+//                // SUCCESS
+//            } else if (result.getStatus() == ITestResult.SUCCESS) {
+//                test.pass("Test Passed");
+//                LogUtil.info("PASSED: " + result.getName());
+//
+//                // SKIPPED
+//            } else if (result.getStatus() == ITestResult.SKIP) {
+//                test.skip("Test Skipped: " + (result.getThrowable() != null ? result.getThrowable() : "Skipped without exception"));
+//                if (screenshotPath != null) {
+//                    test.addScreenCaptureFromPath(screenshotPath);
+//                }
+//                LogUtil.warn("SKIPPED: " + result.getName());
+//
+//                // UNKNOWN
+//            } else {
+//                test.warning("Test status unknown: " + result.getName());
+//                if (screenshotPath != null) {
+//                    test.addScreenCaptureFromPath(screenshotPath);
+//                }
+//                LogUtil.warn("UNKNOWN STATUS: " + result.getName());
+//            }
+//
+//        } catch (Exception e) {
+//            LogUtil.error("Error in tearDown reporting", e);
+//        } finally {
+//            if (driver != null) {
+//                driver.quit();
+//                LogUtil.info("Browser closed for test: " + result.getName());
+//            }
+//        }
+//    }
 
 
     @AfterSuite(alwaysRun = true)
