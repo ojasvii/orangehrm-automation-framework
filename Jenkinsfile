@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven3'    // Global Tool Config se name
-        jdk 'JDK17'       // Global Tool Config se name
+        maven 'Maven'    // Global Tool Config se name
+        jdk 'Java_JDK'       // Global Tool Config se name
     }
 
     triggers {
