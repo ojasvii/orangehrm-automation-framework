@@ -123,7 +123,7 @@
         <version>3.0.0-M9</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
+            <suiteXmlFile>${basedir}src/test/resources/testng.xml</suiteXmlFile>
           </suiteXmlFiles>
           <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
           <useFile>true</useFile>

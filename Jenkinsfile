@@ -7,15 +7,15 @@ pipeline {
     }
 
     triggers {
-        pollSCM('H/5 * * * *')   // Poll GitHub repo every 5 minutes
+        pollSCM('H/5 * * * *')
     }
 
     stages {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/ojasvii/orangehrm-automation-framework.git',
-                credentialsId: 'github-cred'
+                    url: 'https://github.com/ojasvii/orangehrm-automation-framework.git',
+                    credentialsId: 'github-cred'
             }
         }
 
@@ -25,41 +25,32 @@ pipeline {
             }
         }
 
-         stage('Publish Reports') {
-                    steps {
-                        // Archive TestNG Results
-//                         junit '**/test-output/testng-results.xml'
-                        junit '**/surefire-reports/testng-results.xml'
-
-                        // Archive Extent Report
-                        publishHTML([
-                            allowMissing: false,
-                            alwaysLinkToLastBuild: true,
-                            keepAll: true,
-                            reportDir: 'reports',          // Path where ExtentManager is saving report
-//                             reportFiles: 'ExtentReport.html',
-//                             reportName: 'Extent Report'
-                             reportFiles: '**/ExecutionReport_*.html',
-                             reportName: "Execution Report"
-                        ])
-                    }
-                }
+        stage('List Reports') {
+            steps {
+                bat 'dir /s target\\surefire-reports'
             }
+        }
 
-//             post {
-//                 always {
-//                     echo "Build & Test Completed"
-//                 }
-//             }
+        stage('Publish Reports') {
+            steps {
+                junit 'target/surefire-reports/*.xml'
 
-  post {
+                publishHTML([
+                    allowMissing: false,
+                    alwaysLinkToLastBuild: true,
+                    keepAll: true,
+                    reportDir: 'reports',
+                    reportFiles: '**/ExecutionReport_*.html',
+                    reportName: "Execution Report"
+                ])
+            }
+        }
+    }
+
+    post {
         always {
-            // Publish TestNG/JUnit results
-            junit '**/surefire-reports/testng-results.xml'
-
-
-            // Archive Extent Report so you can download if needed
-           archiveArtifacts artifacts: 'reports/ExecutionReport_*.html', fingerprint: true
+            junit 'target/surefire-reports/*.xml'
+            archiveArtifacts artifacts: 'reports/ExecutionReport_*.html', fingerprint: true
         }
     }
 }
