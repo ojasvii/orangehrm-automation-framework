@@ -54,7 +54,8 @@ pipeline {
   post {
         always {
             // Publish TestNG/JUnit results
-            junit '**/target/surefire-reports/*.xml'
+            junit '**/surefire-reports/testng-results.xml'
+
 
             // Archive Extent Report so you can download if needed
            archiveArtifacts artifacts: 'reports/ExecutionReport_*.html', fingerprint: true
