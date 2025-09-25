@@ -21,24 +21,31 @@ pipeline {
 
         stage('Build & Test') {
             steps {
-                sh 'mvn clean test'
+                bat 'mvn clean test'
             }
         }
 
-        stage('Publish Extent Report') {
-            steps {
-                publishHTML([
-                    reportDir: 'reports',              // matches ExtentManager path
-                    reportFiles: 'ExtentReport.html',  // report file name
-                    reportName: 'Extent Report'
-                ])
-            }
-        }
-    }
+         stage('Publish Reports') {
+                    steps {
+                        // Archive TestNG Results
+                        junit '**/test-output/testng-results.xml'
 
-    post {
-        always {
-            junit '**/target/surefire-reports/*.xml'   // Publish TestNG results
-        }
-    }
+                        // Archive Extent Report
+                        publishHTML([
+                            allowMissing: false,
+                            alwaysLinkToLastBuild: true,
+                            keepAll: true,
+                            reportDir: 'reports',          // Path where ExtentManager is saving report
+                            reportFiles: 'ExtentReport.html',
+                            reportName: 'Extent Report'
+                        ])
+                    }
+                }
+            }
+
+            post {
+                always {
+                    echo "Build & Test Completed"
+                }
+            }
 }
