@@ -43,9 +43,19 @@ pipeline {
                 }
             }
 
-            post {
-                always {
-                    echo "Build & Test Completed"
-                }
-            }
+//             post {
+//                 always {
+//                     echo "Build & Test Completed"
+//                 }
+//             }
+
+  post {
+        always {
+            // Publish TestNG/JUnit results
+            junit '**/target/surefire-reports/*.xml'
+
+            // Archive Extent Report so you can download if needed
+            archiveArtifacts artifacts: 'reports/ExtentReport.html', fingerprint: true
+        }
+    }
 }

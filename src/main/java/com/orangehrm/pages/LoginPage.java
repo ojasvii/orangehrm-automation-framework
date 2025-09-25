@@ -8,7 +8,7 @@ import utils.LogUtil;
 public class LoginPage extends BasePage {
 
     private final By usernameField = By.name("username");
-    private final By passwordField = By.name("passwor");
+    private final By passwordField = By.name("password");
     private final By loginButton = By.xpath("//button[@type='submit']");
 
     public LoginPage(WebDriver driver, ExtentTest test) {
