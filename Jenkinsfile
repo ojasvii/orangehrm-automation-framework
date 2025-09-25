@@ -13,7 +13,9 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/ojasvii/orangehrm-automation-framework.git'
+                git branch: 'main',
+                url: 'https://github.com/ojasvii/orangehrm-automation-framework.git',
+                credentialsId: 'github-cred'
             }
         }
 
