@@ -36,8 +36,10 @@ pipeline {
                             alwaysLinkToLastBuild: true,
                             keepAll: true,
                             reportDir: 'reports',          // Path where ExtentManager is saving report
-                            reportFiles: 'ExtentReport.html',
-                            reportName: 'Extent Report'
+//                             reportFiles: 'ExtentReport.html',
+//                             reportName: 'Extent Report'
+                             reportFiles: '**/ExecutionReport_*.html',
+                             reportName: "Execution Report"
                         ])
                     }
                 }
@@ -55,7 +57,7 @@ pipeline {
             junit '**/target/surefire-reports/*.xml'
 
             // Archive Extent Report so you can download if needed
-            archiveArtifacts artifacts: 'reports/ExtentReport.html', fingerprint: true
+           archiveArtifacts artifacts: 'reports/ExecutionReport_*.html', fingerprint: true
         }
     }
 }
