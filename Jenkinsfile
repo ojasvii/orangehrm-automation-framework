@@ -51,6 +51,30 @@ pipeline {
         always {
             junit 'target/surefire-reports/*.xml'
             archiveArtifacts artifacts: 'reports/ExecutionReport_*.html', fingerprint: true
+
+
+//             // Email Notification
+//                         emailext (
+//                             subject: "Build ${currentBuild.fullDisplayName} - ${currentBuild.currentResult}",
+//                             body: """<p>Build URL: <a href="${env.BUILD_URL}">${env.BUILD_URL}</a></p>
+//                                      <p>Status: ${currentBuild.currentResult}</p>
+//                                      <p>Check test reports: <a href="${env.BUILD_URL}HTML_20Report/">Execution Report</a></p>""",
+//                             recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']],
+//                             to: "youremail@example.com"
+//                         )
+
+emailext (
+            subject: "🔔 Build ${env.JOB_NAME} #${env.BUILD_NUMBER} - ${currentBuild.currentResult}",
+            body: """
+                <p>Build Status: ${currentBuild.currentResult}</p>
+                <p>Project: ${env.JOB_NAME}</p>
+                <p>Build Number: ${env.BUILD_NUMBER}</p>
+                <p>Build URL: <a href="${env.BUILD_URL}">${env.BUILD_URL}</a></p>
+            """,
+            to: "sdet2engineer@gmail.com",
+            from: "sdet2engineer@gmail.com",
+            replyTo: "sdet2engineer@gmail.com"
+        )
         }
     }
 }
