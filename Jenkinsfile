@@ -2,12 +2,12 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven'    // Global Tool Config se name
-        jdk 'Java_JDK'       // Global Tool Config se name
+        maven 'Maven'        // Must match Global Tool Config name
+        jdk 'Java_JDK'       // Must match Global Tool Config name
     }
 
     triggers {
-        pollSCM('H/5 * * * *')   // Har 5 min me GitHub repo check karega
+        pollSCM('H/5 * * * *')   // Poll GitHub repo every 5 minutes
     }
 
     stages {
@@ -26,8 +26,8 @@ pipeline {
         stage('Publish Extent Report') {
             steps {
                 publishHTML([
-                    reportDir: 'test-output/ExtentReports', // Extent report folder
-                    reportFiles: 'index.html',
+                    reportDir: 'reports',              // matches ExtentManager path
+                    reportFiles: 'ExtentReport.html',  // report file name
                     reportName: 'Extent Report'
                 ])
             }
@@ -36,7 +36,7 @@ pipeline {
 
     post {
         always {
-            junit '**/target/surefire-reports/*.xml'
+            junit '**/target/surefire-reports/*.xml'   // Publish TestNG results
         }
     }
 }
