@@ -64,7 +64,7 @@ pipeline {
 //                         )
 
 emailext (
-            subject: "🔔 Build ${env.JOB_NAME} #${env.BUILD_NUMBER} - ${currentBuild.currentResult}",
+            subject: " Build ${env.JOB_NAME} #${env.BUILD_NUMBER} - ${currentBuild.currentResult}",
             body: """
                 <p>Build Status: ${currentBuild.currentResult}</p>
                 <p>Project: ${env.JOB_NAME}</p>
