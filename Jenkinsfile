@@ -28,7 +28,8 @@ pipeline {
          stage('Publish Reports') {
                     steps {
                         // Archive TestNG Results
-                        junit '**/test-output/testng-results.xml'
+//                         junit '**/test-output/testng-results.xml'
+                        junit '**/surefire-reports/testng-results.xml'
 
                         // Archive Extent Report
                         publishHTML([
