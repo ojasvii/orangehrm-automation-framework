@@ -64,17 +64,23 @@ pipeline {
 //                         )
 
 emailext (
-            subject: " Build ${env.JOB_NAME} #${env.BUILD_NUMBER} - ${currentBuild.currentResult}",
-            body: """
-                <p>Build Status: ${currentBuild.currentResult}</p>
-                <p>Project: ${env.JOB_NAME}</p>
-                <p>Build Number: ${env.BUILD_NUMBER}</p>
-                <p>Build URL: <a href="${env.BUILD_URL}">${env.BUILD_URL}</a></p>
-            """,
-            to: "sdet2engineer@gmail.com",
-            from: "sdet2engineer@gmail.com",
-            replyTo: "sdet2engineer@gmail.com"
-        )
+    subject: "Build ${env.JOB_NAME} #${env.BUILD_NUMBER} - ${currentBuild.currentResult}",
+    body: """
+        <html>
+        <body>
+            <p><b>Build Status:</b> ${currentBuild.currentResult}</p>
+            <p><b>Project:</b> ${env.JOB_NAME}</p>
+            <p><b>Build Number:</b> ${env.BUILD_NUMBER}</p>
+            <p><b>Build URL:</b> <a href="${env.BUILD_URL}">Click here to view build report</a></p>
+        </body>
+        </html>
+    """,
+    mimeType: 'text/html',
+    to: "sdet2engineer@gmail.com",
+    from: "sdet2engineer@gmail.com",
+    replyTo: "sdet2engineer@gmail.com"
+)
+
         }
     }
 }
