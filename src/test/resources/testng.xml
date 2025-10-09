@@ -5,9 +5,10 @@
         <listener class-name="listeners.TestListener"/>
         <listener class-name="listeners.RetryListener"/>
     </listeners>
-    <test name="Login Tests">
+    <test name="Tests">
         <classes>
             <class name="org.orangehrm.tests.LoginTest"/>
+            <class name="org.orangehrm.tests.DashboardTest"/>
         </classes>
     </test>
 </suite>
