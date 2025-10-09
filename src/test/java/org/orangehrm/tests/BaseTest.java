@@ -3,6 +3,7 @@ package org.orangehrm.tests;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.orangehrm.pages.LoginPage;
 import org.openqa.selenium.WebElement;
 import utils.ConfigReader;
 import utils.WebDriverFactory;
@@ -208,5 +209,12 @@ public class BaseTest {
             extent.flush();
             LogUtil.info("Extent Report flushed successfully");
         }
+    }
+
+    public void login(){
+        LoginPage loginPage = new LoginPage(driver, test);
+        loginPage.enterUsername("Admin");
+        loginPage.enterPassword("admin123");
+        loginPage.clickSubmit();
     }
 }
