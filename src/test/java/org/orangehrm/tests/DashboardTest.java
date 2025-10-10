@@ -21,12 +21,11 @@ public class DashboardTest extends BaseTest{
     @BeforeMethod
    public void setDashboardPage(){
         dashboardPage = new DashboardPage(driver,test);
+        login();
     }
 
     @Test
     public void verifyDashboardLoad(){
-
-        login();
 
         long time = dashboardPage.brandBannerVerify();
 
@@ -38,6 +37,22 @@ public class DashboardTest extends BaseTest{
             Assert.assertFalse(false, "Dashboard loaded in " + time + "ms.");
         }
     }
+
+    @Test
+    public void verifyDashboardHeaderElementsLogo(){
+        boolean logoVisible = dashboardPage.verifyLogo();
+        Assert.assertTrue(logoVisible, "Logo in not visible on dashboard");
+    }
+
+    @Test
+    public void verifyDashboardHelpIcon(){
+        boolean helpIconVisible = dashboardPage.verifyHelpIcon();
+        Assert.assertTrue(helpIconVisible, "Help icon is not visible.");
+    }
+
+
+
+
 
 //    @DataProvider(name = "dashboardData")
 //    public Object [][] dashboardData() throws IOException {

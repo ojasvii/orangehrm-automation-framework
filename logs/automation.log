@@ -853,3 +853,51 @@ Session ID: 74b954654b094938be820bfe87462293
 2025-10-09 15:44:51 INFO  utils.LogUtil - PASSED: verifyDashboardLoad
 2025-10-09 15:44:51 INFO  utils.LogUtil - Browser closed for test: verifyDashboardLoad
 2025-10-09 15:44:52 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-10 10:20:35 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251010_102035.html
+2025-10-10 10:20:47 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-10 10:20:47 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-10 10:20:47 INFO  utils.LogUtil - WebDriver initialized in BasePage
+2025-10-10 10:20:47 INFO  utils.LogUtil - LoginPage initialized
+2025-10-10 10:20:48 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
+2025-10-10 10:20:48 INFO  utils.LogUtil - Typed 'admin' into: By.name: password
+2025-10-10 10:20:48 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
+2025-10-10 10:20:49 INFO  utils.LogUtil - Expected URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login | Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-10 10:20:50 INFO  utils.LogUtil - PASSED: invalidLogin
+2025-10-10 10:20:50 INFO  utils.LogUtil - Browser closed for test: invalidLogin
+2025-10-10 10:20:54 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-10 10:20:54 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-10 10:20:54 INFO  utils.LogUtil - WebDriver initialized in BasePage
+2025-10-10 10:20:54 INFO  utils.LogUtil - LoginPage initialized
+2025-10-10 10:20:55 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
+2025-10-10 10:20:55 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
+2025-10-10 10:20:56 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
+2025-10-10 10:20:57 INFO  utils.LogUtil - Expected URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index | Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-10-10 10:20:59 INFO  utils.LogUtil - PASSED: login
+2025-10-10 10:21:00 INFO  utils.LogUtil - Browser closed for test: login
+2025-10-10 10:21:04 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-10 10:21:04 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-10 10:21:04 INFO  utils.LogUtil - WebDriver initialized in BasePage
+2025-10-10 10:21:04 INFO  utils.LogUtil - Dashboard page initialized
+2025-10-10 10:21:04 INFO  utils.LogUtil - WebDriver initialized in BasePage
+2025-10-10 10:21:04 INFO  utils.LogUtil - LoginPage initialized
+2025-10-10 10:21:05 INFO  utils.LogUtil - Typed 'Admin' into: By.name: username
+2025-10-10 10:21:05 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
+2025-10-10 10:21:06 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
+2025-10-10 10:21:07 INFO  utils.LogUtil - Dashboard load time is less than 3000 ms :1445ms
+2025-10-10 10:21:07 INFO  utils.LogUtil - PASSED: verifyDashboardLoad
+2025-10-10 10:21:07 INFO  utils.LogUtil - Browser closed for test: verifyDashboardLoad
+2025-10-10 10:21:07 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-10 11:55:21 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251010_115520.html
+2025-10-10 11:55:29 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-10 11:55:29 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-10 11:55:29 INFO  utils.LogUtil - WebDriver initialized in BasePage
+2025-10-10 11:55:29 INFO  utils.LogUtil - Dashboard page initialized
+2025-10-10 11:55:29 INFO  utils.LogUtil - WebDriver initialized in BasePage
+2025-10-10 11:55:29 INFO  utils.LogUtil - LoginPage initialized
+2025-10-10 11:55:30 INFO  utils.LogUtil - Typed 'Admin' into: By.name: username
+2025-10-10 11:55:30 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
+2025-10-10 11:55:31 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
+2025-10-10 11:55:32 INFO  utils.LogUtil - Logo is visible on dashboard page.
+2025-10-10 11:55:32 INFO  utils.LogUtil - PASSED: verifyDashboardHeaderElementsLogo
+2025-10-10 11:55:33 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElementsLogo
+2025-10-10 11:55:34 INFO  utils.LogUtil - Extent Report flushed successfully
