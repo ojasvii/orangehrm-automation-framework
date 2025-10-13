@@ -50,6 +50,12 @@ public class DashboardTest extends BaseTest{
         Assert.assertTrue(helpIconVisible, "Help icon is not visible.");
     }
 
+    @Test
+    public void verifyDashboardUserProfileIcon(){
+        boolean userProfileIcon = dashboardPage.verifyUserProfileIcon();
+        Assert.assertTrue(userProfileIcon,"User Profile Icon is not visible.");
+    }
+
 
 
 

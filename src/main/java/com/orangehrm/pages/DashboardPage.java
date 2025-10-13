@@ -64,4 +64,18 @@ public class DashboardPage extends BasePage{
         return isDisplayedIcon;
     }
 
+    public boolean verifyUserProfileIcon(){
+        WebElement  userprofileIcon= wait.until(ExpectedConditions.visibilityOfElementLocated(userProfile));
+        boolean userProfileIsDisplayed = userprofileIcon.isDisplayed();
+
+        if(userProfileIsDisplayed){
+            test.pass("User Profile icon is dispalyed.");
+            LogUtil.info("User Profile icon is dispalyed.");
+        }else{
+            test.fail("User profle icon is not displayed.");
+            LogUtil.info("User profle icon is not displayed.");
+        }
+
+        return userProfileIsDisplayed;
+    }
 }
