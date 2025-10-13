@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 import utils.TestDataProvider;
 
 import java.io.IOException;
@@ -16,7 +17,7 @@ import java.util.Hashtable;
 @Listeners({listeners.TestListener.class, listeners.RetryListener.class})
 public class LoginTest extends BaseTest{
 
-
+    SoftAssert softAssert = new SoftAssert();
     LoginPage loginPage;
 
 
@@ -51,6 +52,14 @@ public class LoginTest extends BaseTest{
         loginPage.clickSubmit();
         String acutalUrl =  loginPage.getCurrentUrlAfterWait(testData.get("DashboardUrl"));
         Assert.assertEquals(acutalUrl,testData.get("DashboardUrl"),"URL verification failed.");
+
+    }
+
+
+    @Test
+    public void verifyLoginPageText(){
+        String actualText = loginPage.verifyUsernameLabelText("Username");
+        softAssert.assertEquals(actualText,"Username");
 
     }
 

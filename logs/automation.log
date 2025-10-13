@@ -901,3 +901,239 @@ Session ID: 74b954654b094938be820bfe87462293
 2025-10-10 11:55:32 INFO  utils.LogUtil - PASSED: verifyDashboardHeaderElementsLogo
 2025-10-10 11:55:33 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElementsLogo
 2025-10-10 11:55:34 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-13 15:48:09 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251013_154808.html
+2025-10-13 15:48:17 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-13 15:48:17 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-13 15:48:17 INFO  utils.LogUtil - WebDriver initialized in BasePage
+2025-10-13 15:48:17 INFO  utils.LogUtil - Dashboard page initialized
+2025-10-13 15:48:17 INFO  utils.LogUtil - WebDriver initialized in BasePage
+2025-10-13 15:48:17 INFO  utils.LogUtil - LoginPage initialized
+2025-10-13 15:48:18 INFO  utils.LogUtil - Typed 'Admin' into: By.name: username
+2025-10-13 15:48:18 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
+2025-10-13 15:48:19 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
+2025-10-13 15:48:30 ERROR utils.LogUtil - FAILED: verifyDashboardHeaderElementsLogo
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //img[contains(@src,'log123')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.66, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59254}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59254/devtoo..., se:cdpVersion: 141.0.7390.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc6683cb74ef50c5c55f5b85580c57d6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.33.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.33.0.jar:?]
+	at com.orangehrm.pages.DashboardPage.verifyLogo(DashboardPage.java:39) ~[classes/:?]
+	at org.orangehrm.tests.DashboardTest.verifyDashboardHeaderElementsLogo(DashboardTest.java:43) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-10-13 15:48:30 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElementsLogo
+2025-10-13 15:48:31 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-13 16:07:35 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251013_160735.html
+2025-10-13 16:07:41 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-13 16:07:41 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-13 16:07:41 INFO  utils.LogUtil - WebDriver initialized in BasePage
+2025-10-13 16:07:41 INFO  utils.LogUtil - LoginPage initialized
+2025-10-13 16:07:42 ERROR utils.LogUtil - Text verification failed: Text mismatch! Expected: Usernam | Actual: Username
+2025-10-13 16:07:42 ERROR utils.LogUtil - FAILED: login
+java.lang.RuntimeException: java.lang.Exception: Text mismatch! Expected: Usernam | Actual: Username
+	at com.orangehrm.pages.BasePage.verifyText(BasePage.java:177) ~[classes/:?]
+	at org.orangehrm.tests.LoginTest.login(LoginTest.java:34) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: java.lang.Exception: Text mismatch! Expected: Usernam | Actual: Username
+	at com.orangehrm.pages.BasePage.verifyText(BasePage.java:168) ~[classes/:?]
+	... 28 more
+2025-10-13 16:07:42 INFO  utils.LogUtil - Browser closed for test: login
+2025-10-13 16:07:43 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-13 16:12:50 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251013_161249.html
+2025-10-13 16:12:59 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-13 16:12:59 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-13 16:12:59 INFO  utils.LogUtil - WebDriver initialized in BasePage
+2025-10-13 16:12:59 INFO  utils.LogUtil - LoginPage initialized
+2025-10-13 16:13:00 ERROR utils.LogUtil - Text verification failed: Text mismatch! Expected: Usernam | Actual: Username
+2025-10-13 16:13:01 ERROR utils.LogUtil - FAILED: login
+java.lang.RuntimeException: java.lang.Exception: Text mismatch! Expected: Usernam | Actual: Username
+	at com.orangehrm.pages.BasePage.verifyText(BasePage.java:177) ~[classes/:?]
+	at org.orangehrm.tests.LoginTest.login(LoginTest.java:34) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: java.lang.Exception: Text mismatch! Expected: Usernam | Actual: Username
+	at com.orangehrm.pages.BasePage.verifyText(BasePage.java:168) ~[classes/:?]
+	... 28 more
+2025-10-13 16:13:01 INFO  utils.LogUtil - Browser closed for test: login
+2025-10-13 16:13:01 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-13 16:26:23 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251013_162623.html
+2025-10-13 16:26:29 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-13 16:26:29 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-13 16:26:29 INFO  utils.LogUtil - WebDriver initialized in BasePage
+2025-10-13 16:26:29 INFO  utils.LogUtil - LoginPage initialized
+2025-10-13 16:26:30 ERROR utils.LogUtil - Text verification failed: Text mismatch! Expected: Usernam | Actual: Username
+2025-10-13 16:26:30 ERROR utils.LogUtil - FAILED: login
+java.lang.RuntimeException: java.lang.Exception: Text mismatch! Expected: Usernam | Actual: Username
+	at com.orangehrm.pages.BasePage.verifyText(BasePage.java:177) ~[classes/:?]
+	at org.orangehrm.tests.LoginTest.login(LoginTest.java:34) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: java.lang.Exception: Text mismatch! Expected: Usernam | Actual: Username
+	at com.orangehrm.pages.BasePage.verifyText(BasePage.java:168) ~[classes/:?]
+	... 28 more
+2025-10-13 16:26:30 INFO  utils.LogUtil - Browser closed for test: login
+2025-10-13 16:26:31 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-13 16:42:30 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251013_164230.html
+2025-10-13 16:42:36 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-13 16:42:36 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-13 16:42:36 INFO  utils.LogUtil - WebDriver initialized in BasePage
+2025-10-13 16:42:36 INFO  utils.LogUtil - LoginPage initialized
+2025-10-13 16:42:46 ERROR utils.LogUtil - Text verification failed: Expected condition failed: waiting for visibility of element located by By.xpath: //label[contains(text(),'Username')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.66, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49696}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49696/devtoo..., se:cdpVersion: 141.0.7390.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 24218e53b5fb687b346c3ba3fe5c9af4
+2025-10-13 16:42:46 ERROR utils.LogUtil - FAILED: verifyLoginPageText
+java.lang.RuntimeException: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //label[contains(text(),'Username')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.66, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49696}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49696/devtoo..., se:cdpVersion: 141.0.7390.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 24218e53b5fb687b346c3ba3fe5c9af4
+	at com.orangehrm.pages.BasePage.verifyText(BasePage.java:177) ~[classes/:?]
+	at com.orangehrm.pages.LoginPage.verifyUsernameLabelText(LoginPage.java:38) ~[classes/:?]
+	at org.orangehrm.tests.LoginTest.verifyLoginPageText(LoginTest.java:60) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //label[contains(text(),'Username')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.66, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49696}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49696/devtoo..., se:cdpVersion: 141.0.7390.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 24218e53b5fb687b346c3ba3fe5c9af4
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.33.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.33.0.jar:?]
+	at com.orangehrm.pages.BasePage.verifyText(BasePage.java:164) ~[classes/:?]
+	... 29 more
+2025-10-13 16:42:46 INFO  utils.LogUtil - Browser closed for test: verifyLoginPageText
+2025-10-13 16:42:47 INFO  utils.LogUtil - Extent Report flushed successfully

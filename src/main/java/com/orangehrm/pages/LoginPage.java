@@ -10,6 +10,7 @@ public class LoginPage extends BasePage {
     private final By usernameField = By.name("username");
     private final By passwordField = By.name("password");
     private final By loginButton = By.xpath("//button[@type='submit']");
+    public By usernameText = By.xpath("//label[contains(text(),'Username')]");
 
     public LoginPage(WebDriver driver, ExtentTest test) {
         super(driver, test);
@@ -18,6 +19,8 @@ public class LoginPage extends BasePage {
             test.info("LoginPage initialized");
         }
     }
+
+
 
     public void enterUsername(String username) {
         type(usernameField, username);
@@ -29,5 +32,9 @@ public class LoginPage extends BasePage {
 
     public void clickSubmit() {
         click(loginButton);
+    }
+
+    public String verifyUsernameLabelText(String expectedUsernameText){
+        return verifyText(usernameText,expectedUsernameText);
     }
 }

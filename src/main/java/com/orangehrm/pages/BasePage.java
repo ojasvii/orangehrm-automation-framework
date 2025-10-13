@@ -118,47 +118,52 @@ public class BasePage {
     }
 
     // Click with highlight
-    public void click(By locator) {
+    public WebElement click(By locator) {
+        WebElement element = null;
         try {
-            WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+            element = wait.until(ExpectedConditions.elementToBeClickable(locator));
             highlightElement(locator); // highlight before click
             element.click();
             LogUtil.info("Clicked element: " + locator);
             if (test != null) test.log(Status.PASS, "Clicked element: " + locator);
         } catch (Exception e) {
-            String screenshot = ScreenshotUtil.captureScreenshot(driver, "Click_Failure", driver.findElement(locator));
+            String screenshot = ScreenshotUtil.captureScreenshot(driver, "Click_Failure", element);
             LogUtil.error("Click failed: " + e.getMessage());
             if (test != null) test.log(Status.FAIL, "Click failed: " + e.getMessage())
                     .addScreenCaptureFromPath(screenshot);
             throw e;
         }
+        return element;
     }
 
     // Type with highlight
-    public void type(By locator, String text) {
+    public WebElement type(By locator, String text) {
+        WebElement element = null;
         try {
-            WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+            element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
             highlightElement(locator);
             element.clear();
             element.sendKeys(text);
             LogUtil.info("Typed '" + text + "' into: " + locator);
             if (test != null) test.log(Status.PASS, "Typed '" + text + "' into: " + locator);
         } catch (Exception e) {
-            String screenshot = ScreenshotUtil.captureScreenshot(driver, "Type_Failure", driver.findElement(locator));
+            String screenshot = ScreenshotUtil.captureScreenshot(driver, "Type_Failure", element);
             LogUtil.error("Type failed: " + e.getMessage());
             if (test != null) test.log(Status.FAIL, "Type failed: " + e.getMessage())
                     .addScreenCaptureFromPath(screenshot);
             throw e;
         }
+        return element;
     }
 
     // Verify text with highlight
-    public void verifyText(By locator, String expectedText) {
+    public String verifyText(By locator, String expectedText) {
         WebElement element = null;
+        String actualText = "";
         try {
             element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
             highlightElement(locator);
-            String actualText = element.getText().trim();
+            actualText = element.getText().trim();
             if (!actualText.equals(expectedText)) {
                 throw new Exception("Text mismatch! Expected: " + expectedText + " | Actual: " + actualText);
             }
@@ -171,10 +176,11 @@ public class BasePage {
                     .addScreenCaptureFromPath(screenshot);
             throw new RuntimeException(e);
         }
+        return actualText;
     }
 
     // Verify logo or element visibility
-    public void verifyElementVisible(By locator, String elementName) {
+    public WebElement verifyElementVisible(By locator, String elementName) {
         WebElement element = null;
         try {
             element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
@@ -189,13 +195,15 @@ public class BasePage {
                     .addScreenCaptureFromPath(screenshot);
             throw new RuntimeException(e);
         }
+        return element;
     }
 
     // Verify current URL
-    public void verifyCurrentUrl(String expectedUrl) {
+    public String getCurrentUrlAfterWait(String expectedUrl) {
+        String actualUrl = "";
         try {
             wait.until(ExpectedConditions.urlToBe(expectedUrl));
-            String actualUrl = driver.getCurrentUrl();
+            actualUrl = driver.getCurrentUrl();
             LogUtil.info("Expected URL: " + expectedUrl + " | Actual URL: " + actualUrl);
             if (test != null) test.log(Status.PASS, "URL verified: " + actualUrl);
         } catch (Exception e) {
@@ -205,6 +213,8 @@ public class BasePage {
                     .addScreenCaptureFromPath(screenshot);
             throw new RuntimeException(e);
         }
+        return actualUrl;
     }
 }
+
 

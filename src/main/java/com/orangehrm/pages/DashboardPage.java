@@ -13,7 +13,7 @@ public class DashboardPage extends BasePage{
     long loadTime;
 
     private final By brandbanner = By.cssSelector(".oxd-brand-banner img");
-    private final By logo = By.xpath("//img[contains(@src,'logo')]");
+    private final By logo = By.xpath("//img[contains(@src,'log')]");
     private final By help = By.xpath("//button[@title='Help']");
     private final By userProfile = By.xpath("//li[contains(@class,'oxd-userdropdown')]");
 
