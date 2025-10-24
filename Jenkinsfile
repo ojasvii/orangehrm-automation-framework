@@ -76,7 +76,7 @@ emailext (
         </html>
     """,
     mimeType: 'text/html',
-    to: "sdet2engineer@gmail.com",
+    to: "sdet2engineer@gmail.com,ojasvii.singh@zohomail.in",
     from: "sdet2engineer@gmail.com",
     replyTo: "sdet2engineer@gmail.com"
 )
