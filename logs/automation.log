@@ -1,32 +1,66 @@
-2025-09-16 16:13:15 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20250916_161314.html
-2025-09-16 16:13:21 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-16 16:13:21 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-16 16:13:21 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-09-16 16:13:21 INFO  utils.LogUtil - LoginPage initialized
-2025-09-16 16:13:22 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-09-16 16:13:22 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
-2025-09-16 16:13:22 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-09-16 16:13:24 INFO  utils.LogUtil - Expected URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index | Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
-2025-09-16 16:13:27 INFO  utils.LogUtil - PASSED: login
-2025-09-16 16:13:27 INFO  utils.LogUtil - Browser closed for test: login
-2025-09-16 16:13:32 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-16 16:13:32 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-16 16:13:32 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-09-16 16:13:32 INFO  utils.LogUtil - LoginPage initialized
-2025-09-16 16:13:33 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-09-16 16:13:34 INFO  utils.LogUtil - Typed 'admin' into: By.name: password
-2025-09-16 16:13:34 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-09-16 16:13:44 ERROR utils.LogUtil - FAILED: login
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index". Current url: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58141}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58141/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0483e7c58d99ac70269e3feabda0fc3b
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.33.0.jar:?]
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.33.0.jar:?]
-	at com.orangehrm.pages.BasePage.getCurrentUrlAfterWait(BasePage.java:66) ~[classes/:?]
-	at org.orangehrm.tests.LoginTest.login(LoginTest.java:38) ~[test-classes/:?]
+2025-10-23 15:04:40 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_150439.html
+2025-10-23 15:04:52 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-23 15:04:52 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 15:04:52 INFO  utils.LogUtil - WebDriver initialized in BasePage
+2025-10-23 15:04:52 INFO  utils.LogUtil - Dashboard page initialized
+2025-10-23 15:04:52 INFO  utils.LogUtil - WebDriver initialized in BasePage
+2025-10-23 15:04:52 INFO  utils.LogUtil - LoginPage initialized
+2025-10-23 15:04:52 INFO  utils.LogUtil - Typed 'Admin' into: By.name: username
+2025-10-23 15:04:53 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
+2025-10-23 15:04:53 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
+2025-10-23 15:04:55 INFO  utils.LogUtil - Dashboard is displayed
+2025-10-23 15:04:55 INFO  utils.LogUtil - PASSED: verifyDashboardTitle
+2025-10-23 15:04:55 INFO  utils.LogUtil - Browser closed for test: verifyDashboardTitle
+2025-10-23 15:04:55 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-23 15:07:10 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_150710.html
+2025-10-23 15:07:15 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-23 15:07:15 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 15:07:15 INFO  utils.LogUtil - WebDriver initialized in BasePage
+2025-10-23 15:07:15 INFO  utils.LogUtil - Dashboard page initialized
+2025-10-23 15:07:15 INFO  utils.LogUtil - WebDriver initialized in BasePage
+2025-10-23 15:07:15 INFO  utils.LogUtil - LoginPage initialized
+2025-10-23 15:07:16 INFO  utils.LogUtil - Typed 'Admin' into: By.name: username
+2025-10-23 15:07:16 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
+2025-10-23 15:07:16 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
+2025-10-23 15:07:18 INFO  utils.LogUtil - Dashboar is displayed
+2025-10-23 15:07:18 INFO  utils.LogUtil - PASSED: verifyDashboardTitle
+2025-10-23 15:07:18 INFO  utils.LogUtil - Browser closed for test: verifyDashboardTitle
+2025-10-23 15:07:19 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-23 15:08:08 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_150807.html
+2025-10-23 15:08:12 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-23 15:08:12 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 15:08:12 INFO  utils.LogUtil - WebDriver initialized in BasePage
+2025-10-23 15:08:12 INFO  utils.LogUtil - Dashboard page initialized
+2025-10-23 15:08:12 INFO  utils.LogUtil - WebDriver initialized in BasePage
+2025-10-23 15:08:12 INFO  utils.LogUtil - LoginPage initialized
+2025-10-23 15:08:13 INFO  utils.LogUtil - Typed 'Admin' into: By.name: username
+2025-10-23 15:08:14 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
+2025-10-23 15:08:14 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
+2025-10-23 15:08:16 INFO  utils.LogUtil - Dashboar is displayed
+2025-10-23 15:08:16 INFO  utils.LogUtil - PASSED: verifyDashboardTitle
+2025-10-23 15:08:16 INFO  utils.LogUtil - Browser closed for test: verifyDashboardTitle
+2025-10-23 15:08:16 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-23 15:51:50 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_155150.html
+2025-10-23 15:51:57 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-23 15:51:57 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 15:52:18 INFO  utils.LogUtil - Logo is visible.
+2025-10-23 15:52:18 INFO  utils.LogUtil - Help Ico is visible.
+2025-10-23 15:52:18 INFO  utils.LogUtil - User Profile Icon is visible.
+2025-10-23 15:52:18 INFO  utils.LogUtil - PASSED: verifyDashboardHeaderElements
+2025-10-23 15:52:19 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElements
+2025-10-23 15:52:19 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-23 15:53:25 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_155325.html
+2025-10-23 15:53:32 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-23 15:53:32 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 15:53:46 INFO  utils.LogUtil - Logo is visible.
+2025-10-23 15:53:56 ERROR utils.LogUtil - Help Ico is not visible.
+2025-10-23 15:53:56 INFO  utils.LogUtil - User Profile Icon is visible.
+2025-10-23 15:53:56 ERROR utils.LogUtil - FAILED: verifyDashboardHeaderElements
+java.lang.AssertionError: The following asserts failed:
+	Help Ico is not visible. expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30) ~[testng-7.10.2.jar:7.10.2]
+	at org.orangehrm.tests.DashboardTest.verifyDashboardHeaderElements(DashboardTest.java:139) ~[test-classes/:?]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -54,108 +88,37 @@ Session ID: 0483e7c58d99ac70269e3feabda0fc3b
 	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-2025-09-16 16:13:45 INFO  utils.LogUtil - Browser closed for test: login
-2025-09-16 16:13:45 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-09-16 16:28:28 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20250916_162827.html
-2025-09-16 16:28:28 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-09-16 16:33:11 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20250916_163311.html
-2025-09-16 16:33:17 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-16 16:33:17 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-16 16:33:17 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-09-16 16:33:17 INFO  utils.LogUtil - LoginPage initialized
-2025-09-16 16:33:18 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-09-16 16:33:18 INFO  utils.LogUtil - Typed 'admin' into: By.name: password
-2025-09-16 16:33:18 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-09-16 16:33:20 INFO  utils.LogUtil - Expected URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login | Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-16 16:33:20 INFO  utils.LogUtil - PASSED: invalidLogin
-2025-09-16 16:33:20 INFO  utils.LogUtil - Browser closed for test: invalidLogin
-2025-09-16 16:33:20 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-09-16 16:33:50 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20250916_163349.html
-2025-09-16 16:33:52 ERROR utils.LogUtil - Error in tearDown reporting
-java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.skip(String)" because "this.test" is null
-	at org.orangehrm.tests.BaseTest.tearDown(BaseTest.java:78) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:622) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
-	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-2025-09-16 16:33:58 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-16 16:33:58 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-16 16:33:58 WARN  utils.LogUtil - SKIPPED: login
-2025-09-16 16:33:58 INFO  utils.LogUtil - Browser closed for test: login
-2025-09-16 16:34:10 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-16 16:34:10 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-16 16:34:10 WARN  utils.LogUtil - SKIPPED: login
-2025-09-16 16:34:11 INFO  utils.LogUtil - Browser closed for test: login
-2025-09-16 16:34:11 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-09-16 16:34:46 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20250916_163446.html
-2025-09-16 16:34:46 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-09-16 16:35:00 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20250916_163500.html
-2025-09-16 16:35:06 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-16 16:35:06 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-16 16:35:06 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-09-16 16:35:06 INFO  utils.LogUtil - LoginPage initialized
-2025-09-16 16:35:07 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-09-16 16:35:07 INFO  utils.LogUtil - Typed 'admin' into: By.name: password
-2025-09-16 16:35:07 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-09-16 16:35:09 INFO  utils.LogUtil - Expected URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login | Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-16 16:35:09 INFO  utils.LogUtil - PASSED: invalidLogin
-2025-09-16 16:35:09 INFO  utils.LogUtil - Browser closed for test: invalidLogin
-2025-09-16 16:35:14 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-16 16:35:14 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-16 16:35:14 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-09-16 16:35:14 INFO  utils.LogUtil - LoginPage initialized
-2025-09-16 16:35:15 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-09-16 16:35:15 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
-2025-09-16 16:35:15 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-09-16 16:35:16 INFO  utils.LogUtil - Expected URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index | Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
-2025-09-16 16:35:20 INFO  utils.LogUtil - PASSED: login
-2025-09-16 16:35:20 INFO  utils.LogUtil - Browser closed for test: login
-2025-09-16 16:35:25 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-16 16:35:25 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-16 16:35:25 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-09-16 16:35:25 INFO  utils.LogUtil - LoginPage initialized
-2025-09-16 16:35:26 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-09-16 16:35:26 INFO  utils.LogUtil - Typed 'admin' into: By.name: password
-2025-09-16 16:35:26 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-09-16 16:35:36 ERROR utils.LogUtil - FAILED: login
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index". Current url: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50555}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50555/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a065cd24b7649962020dfc66e54ff3b6
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.33.0.jar:?]
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.33.0.jar:?]
-	at com.orangehrm.pages.BasePage.getCurrentUrlAfterWait(BasePage.java:66) ~[classes/:?]
-	at org.orangehrm.tests.LoginTest.login(LoginTest.java:38) ~[test-classes/:?]
+2025-10-23 15:53:56 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElements
+2025-10-23 15:53:57 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-23 15:55:19 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_155519.html
+2025-10-23 15:55:27 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-23 15:55:27 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 15:55:42 INFO  utils.LogUtil - Dashboard URL after invalid login verified: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 15:55:42 INFO  utils.LogUtil - PASSED: negativeLoginTest
+2025-10-23 15:55:43 INFO  utils.LogUtil - Browser closed for test: negativeLoginTest
+2025-10-23 15:55:51 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-23 15:55:51 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 15:56:06 INFO  utils.LogUtil - Dashboard URL verified: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-10-23 15:56:21 INFO  utils.LogUtil - Logged out successfully
+2025-10-23 15:56:21 INFO  utils.LogUtil - PASSED: positiveLoginTest
+2025-10-23 15:56:22 INFO  utils.LogUtil - Browser closed for test: positiveLoginTest
+2025-10-23 15:56:31 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-23 15:56:31 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 15:56:35 INFO  utils.LogUtil - Username label verified: Username
+2025-10-23 15:56:35 INFO  utils.LogUtil - PASSED: verifyUsernameLabel
+2025-10-23 15:56:35 INFO  utils.LogUtil - Browser closed for test: verifyUsernameLabel
+2025-10-23 15:56:43 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-23 15:56:43 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 15:57:06 ERROR utils.LogUtil - Logo is not visible.
+2025-10-23 15:57:17 ERROR utils.LogUtil - Help Ico is not visible.
+2025-10-23 15:57:17 INFO  utils.LogUtil - User Profile Icon is visible.
+2025-10-23 15:57:17 ERROR utils.LogUtil - FAILED: verifyDashboardHeaderElements
+java.lang.AssertionError: The following asserts failed:
+	Logo is not visible. expected [true] but found [false],
+	Help Ico is not visible. expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30) ~[testng-7.10.2.jar:7.10.2]
+	at org.orangehrm.tests.DashboardTest.verifyDashboardHeaderElements(DashboardTest.java:139) ~[test-classes/:?]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -183,37 +146,37 @@ Session ID: a065cd24b7649962020dfc66e54ff3b6
 	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-2025-09-16 16:35:37 INFO  utils.LogUtil - Browser closed for test: login
-2025-09-16 16:35:37 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-09-16 16:49:13 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20250916_164912.html
-2025-09-16 16:49:19 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-16 16:49:19 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-16 16:49:19 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-09-16 16:49:19 INFO  utils.LogUtil - LoginPage initialized
-2025-09-16 16:49:20 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-09-16 16:49:21 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
-2025-09-16 16:49:21 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-09-16 16:49:22 INFO  utils.LogUtil - Expected URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index | Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
-2025-09-16 16:49:25 INFO  utils.LogUtil - PASSED: login
-2025-09-16 16:49:26 INFO  utils.LogUtil - Browser closed for test: login
-2025-09-16 16:49:30 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-16 16:49:30 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-16 16:49:30 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-09-16 16:49:30 INFO  utils.LogUtil - LoginPage initialized
-2025-09-16 16:49:31 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-09-16 16:49:31 INFO  utils.LogUtil - Typed 'admin' into: By.name: password
-2025-09-16 16:49:32 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-09-16 16:49:42 ERROR utils.LogUtil - FAILED: login
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index". Current url: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56237}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56237/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3bbd723aa7e23dd9d228b8dd7bb83fb7
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.33.0.jar:?]
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.33.0.jar:?]
-	at com.orangehrm.pages.BasePage.getCurrentUrlAfterWait(BasePage.java:66) ~[classes/:?]
-	at org.orangehrm.tests.LoginTest.login(LoginTest.java:38) ~[test-classes/:?]
+2025-10-23 15:57:17 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElements
+2025-10-23 15:57:28 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-23 15:57:28 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 15:57:50 ERROR utils.LogUtil - Dashboard load time exceeded 3000 ms: 18014
+2025-10-23 15:57:50 INFO  utils.LogUtil - PASSED: verifyDashboardLoadTime
+2025-10-23 15:57:51 INFO  utils.LogUtil - Browser closed for test: verifyDashboardLoadTime
+2025-10-23 15:58:01 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-23 15:58:01 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 15:58:22 INFO  utils.LogUtil - Dashboard title verified: Dashboard
+2025-10-23 15:58:22 INFO  utils.LogUtil - PASSED: verifyDashboardTitle
+2025-10-23 15:58:24 INFO  utils.LogUtil - Browser closed for test: verifyDashboardTitle
+2025-10-23 15:58:29 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-23 15:58:29 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 15:58:32 INFO  utils.LogUtil - Admin Tab is visible.
+2025-10-23 15:58:32 INFO  utils.LogUtil - PIM Tab is visible.
+2025-10-23 15:58:32 INFO  utils.LogUtil - Leave Tab is visible.
+2025-10-23 15:58:32 INFO  utils.LogUtil - PASSED: verifyLeftNavigationMenu
+2025-10-23 15:58:33 INFO  utils.LogUtil - Browser closed for test: verifyLeftNavigationMenu
+2025-10-23 15:58:33 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-23 16:42:23 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_164223.html
+2025-10-23 16:42:31 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-23 16:42:31 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 16:42:33 INFO  utils.LogUtil - Logo is visible.
+2025-10-23 16:42:44 ERROR utils.LogUtil - Help Ico is not visible.
+2025-10-23 16:42:44 INFO  utils.LogUtil - User Profile Icon is visible.
+2025-10-23 16:42:44 ERROR utils.LogUtil - FAILED: verifyDashboardHeaderElements
+java.lang.AssertionError: The following asserts failed:
+	Help Ico is not visible. expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30) ~[testng-7.10.2.jar:7.10.2]
+	at org.orangehrm.tests.DashboardTest.verifyDashboardHeaderElements(DashboardTest.java:139) ~[test-classes/:?]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -241,27 +204,37 @@ Session ID: 3bbd723aa7e23dd9d228b8dd7bb83fb7
 	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-2025-09-16 16:49:42 INFO  utils.LogUtil - Browser closed for test: login
-2025-09-16 16:49:43 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-09-16 16:54:44 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20250916_165444.html
-2025-09-16 16:54:50 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-16 16:54:50 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-16 16:54:50 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-09-16 16:54:50 INFO  utils.LogUtil - LoginPage initialized
-2025-09-16 16:54:55 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-09-16 16:54:55 INFO  utils.LogUtil - Typed 'admin' into: By.name: password
-2025-09-16 16:54:55 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-09-16 16:55:06 ERROR utils.LogUtil - FAILED: invalidLogin
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be "https://opensource-demo.orangehrmlive.com/web/index.php/auth/logi". Current url: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53498}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53498/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 62c4d6f468ffd1b81cc2f4fdf043bb78
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.33.0.jar:?]
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.33.0.jar:?]
-	at com.orangehrm.pages.BasePage.getCurrentUrlAfterWait(BasePage.java:66) ~[classes/:?]
-	at org.orangehrm.tests.LoginTest.invalidLogin(LoginTest.java:52) ~[test-classes/:?]
+2025-10-23 16:42:44 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElements
+2025-10-23 16:42:49 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-23 16:42:49 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 16:42:51 INFO  utils.LogUtil - Dashboard loaded in: 1850 ms
+2025-10-23 16:42:51 INFO  utils.LogUtil - PASSED: verifyDashboardLoadTime
+2025-10-23 16:42:52 INFO  utils.LogUtil - Browser closed for test: verifyDashboardLoadTime
+2025-10-23 16:42:56 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-23 16:42:56 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 16:42:59 INFO  utils.LogUtil - Dashboard title verified: Dashboard
+2025-10-23 16:42:59 INFO  utils.LogUtil - PASSED: verifyDashboardTitle
+2025-10-23 16:42:59 INFO  utils.LogUtil - Browser closed for test: verifyDashboardTitle
+2025-10-23 16:43:04 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-23 16:43:04 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 16:43:06 INFO  utils.LogUtil - Admin Tab is visible.
+2025-10-23 16:43:06 INFO  utils.LogUtil - PIM Tab is visible.
+2025-10-23 16:43:07 INFO  utils.LogUtil - Leave Tab is visible.
+2025-10-23 16:43:07 INFO  utils.LogUtil - PASSED: verifyLeftNavigationMenu
+2025-10-23 16:43:07 INFO  utils.LogUtil - Browser closed for test: verifyLeftNavigationMenu
+2025-10-23 16:43:07 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-23 16:50:09 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_165009.html
+2025-10-23 16:50:14 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-23 16:50:14 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 16:50:17 INFO  utils.LogUtil - Logo is visible.
+2025-10-23 16:50:27 ERROR utils.LogUtil - Help Ico is not visible.
+2025-10-23 16:50:27 INFO  utils.LogUtil - User Profile Icon is visible.
+2025-10-23 16:50:27 ERROR utils.LogUtil - FAILED: verifyDashboardHeaderElements
+java.lang.AssertionError: The following asserts failed:
+	Help Ico is not visible. expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30) ~[testng-7.10.2.jar:7.10.2]
+	at org.orangehrm.tests.DashboardTest.verifyDashboardHeaderElements(DashboardTest.java:139) ~[test-classes/:?]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -289,27 +262,30 @@ Session ID: 62c4d6f468ffd1b81cc2f4fdf043bb78
 	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-2025-09-16 16:55:06 INFO  utils.LogUtil - Browser closed for test: invalidLogin
-2025-09-16 16:55:06 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-09-16 17:12:20 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20250916_171219.html
-2025-09-16 17:12:26 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-16 17:12:26 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-16 17:12:26 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-09-16 17:12:26 INFO  utils.LogUtil - LoginPage initialized
-2025-09-16 17:12:26 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-09-16 17:12:27 INFO  utils.LogUtil - Typed 'admin' into: By.name: password
-2025-09-16 17:12:27 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-09-16 17:12:37 ERROR utils.LogUtil - FAILED: invalidLogin
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be "https://opensource-demo.orangehrmlive.com/web/index.php/auth/logi". Current url: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51484}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51484/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9b90b5979afde2a513469879ebd02a74
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.33.0.jar:?]
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.33.0.jar:?]
-	at com.orangehrm.pages.BasePage.getCurrentUrlAfterWait(BasePage.java:66) ~[classes/:?]
-	at org.orangehrm.tests.LoginTest.invalidLogin(LoginTest.java:52) ~[test-classes/:?]
+2025-10-23 16:50:28 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElements
+2025-10-23 16:50:28 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-23 17:13:41 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_171340.html
+2025-10-23 17:13:47 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-23 17:13:47 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 17:13:49 INFO  utils.LogUtil - Admin Tab is visible.
+2025-10-23 17:13:49 INFO  utils.LogUtil - PIM Tab is visible.
+2025-10-23 17:13:50 INFO  utils.LogUtil - Leave Tab is visible.
+2025-10-23 17:13:50 INFO  utils.LogUtil - PASSED: verifyLeftNavigationMenu
+2025-10-23 17:13:50 INFO  utils.LogUtil - Browser closed for test: verifyLeftNavigationMenu
+2025-10-23 17:13:50 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-23 17:14:17 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_171416.html
+2025-10-23 17:14:22 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-23 17:14:22 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 17:14:24 INFO  utils.LogUtil - Logo is visible.
+2025-10-23 17:14:35 ERROR utils.LogUtil - Help Ico is not visible.
+2025-10-23 17:14:35 INFO  utils.LogUtil - User Profile Icon is visible.
+2025-10-23 17:14:35 ERROR utils.LogUtil - FAILED: verifyDashboardHeaderElements
+java.lang.AssertionError: The following asserts failed:
+	Exception while verifying : Help Ico,
+	Help Ico is not visible. expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30) ~[testng-7.10.2.jar:7.10.2]
+	at org.orangehrm.tests.DashboardTest.verifyDashboardHeaderElements(DashboardTest.java:140) ~[test-classes/:?]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -337,803 +313,56 @@ Session ID: 9b90b5979afde2a513469879ebd02a74
 	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-2025-09-16 17:12:38 INFO  utils.LogUtil - Browser closed for test: invalidLogin
-2025-09-16 17:12:43 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-16 17:12:43 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-16 17:12:43 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-09-16 17:12:43 INFO  utils.LogUtil - LoginPage initialized
-2025-09-16 17:12:44 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-09-16 17:12:44 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
-2025-09-16 17:12:44 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-09-16 17:12:46 INFO  utils.LogUtil - Expected URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index | Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
-2025-09-16 17:12:49 INFO  utils.LogUtil - PASSED: login
-2025-09-16 17:12:51 INFO  utils.LogUtil - Browser closed for test: login
-2025-09-16 17:12:57 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-16 17:12:57 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-16 17:12:57 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-09-16 17:12:57 INFO  utils.LogUtil - LoginPage initialized
-2025-09-16 17:12:57 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-09-16 17:12:58 INFO  utils.LogUtil - Typed 'admin' into: By.name: password
-2025-09-16 17:12:58 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-09-16 17:13:09 ERROR utils.LogUtil - FAILED: login
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index". Current url: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63782}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63782/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f8c18f4c863ee3b56341a4ebdb120bec
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.33.0.jar:?]
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.33.0.jar:?]
-	at com.orangehrm.pages.BasePage.getCurrentUrlAfterWait(BasePage.java:66) ~[classes/:?]
-	at org.orangehrm.tests.LoginTest.login(LoginTest.java:38) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
-	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-2025-09-16 17:13:11 INFO  utils.LogUtil - Browser closed for test: login
-2025-09-16 17:13:11 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-09-16 17:19:06 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20250916_171905.html
-2025-09-16 17:19:11 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-16 17:19:11 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-16 17:19:11 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-09-16 17:19:11 INFO  utils.LogUtil - LoginPage initialized
-2025-09-16 17:19:12 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-09-16 17:19:22 ERROR utils.LogUtil - FAILED: invalidLogin
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.name: passwor (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56250}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56250/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1f7da941c2642c9fa03e1e68985bf926
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.33.0.jar:?]
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.33.0.jar:?]
-	at com.orangehrm.pages.BasePage.type(BasePage.java:55) ~[classes/:?]
-	at com.orangehrm.pages.LoginPage.enterPassword(LoginPage.java:27) ~[classes/:?]
-	at org.orangehrm.tests.LoginTest.invalidLogin(LoginTest.java:50) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
-	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-2025-09-16 17:19:23 INFO  utils.LogUtil - Browser closed for test: invalidLogin
-2025-09-16 17:19:23 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-09-16 17:41:39 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20250916_174138.html
-2025-09-16 17:41:45 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-16 17:41:45 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-16 17:41:45 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-09-16 17:41:45 INFO  utils.LogUtil - LoginPage initialized
-2025-09-16 17:41:46 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-09-16 17:41:46 INFO  utils.LogUtil - Typed 'admin' into: By.name: password
-2025-09-16 17:41:46 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-09-16 17:41:48 INFO  utils.LogUtil - Expected URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login | Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-16 17:41:48 INFO  utils.LogUtil - PASSED: invalidLogin
-2025-09-16 17:41:48 INFO  utils.LogUtil - Browser closed for test: invalidLogin
-2025-09-16 17:41:48 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-09-16 17:42:45 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20250916_174244.html
-2025-09-16 17:42:50 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-16 17:42:50 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-16 17:42:51 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-09-16 17:42:51 INFO  utils.LogUtil - LoginPage initialized
-2025-09-16 17:42:51 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-09-16 17:43:02 ERROR utils.LogUtil - FAILED: invalidLogin
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.name: passwor (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56227}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56227/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d321647fe00c7c38d91e982d6bc3b85
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.33.0.jar:?]
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.33.0.jar:?]
-	at com.orangehrm.pages.BasePage.type(BasePage.java:55) ~[classes/:?]
-	at com.orangehrm.pages.LoginPage.enterPassword(LoginPage.java:27) ~[classes/:?]
-	at org.orangehrm.tests.LoginTest.invalidLogin(LoginTest.java:50) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
-	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-2025-09-16 17:43:02 INFO  utils.LogUtil - Browser closed for test: invalidLogin
-2025-09-16 17:43:02 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-09-18 17:56:57 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20250918_175656.html
-2025-09-18 17:57:03 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-18 17:57:03 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-18 17:57:03 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-09-18 17:57:03 INFO  utils.LogUtil - LoginPage initialized
-2025-09-18 17:57:05 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-09-18 17:57:15 ERROR utils.LogUtil - FAILED: invalidLogin
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.name: passwor (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61083}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61083/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f30d61c55bf279451d757c3dcfea6940
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.33.0.jar:?]
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.33.0.jar:?]
-	at com.orangehrm.pages.BasePage.type(BasePage.java:55) ~[classes/:?]
-	at com.orangehrm.pages.LoginPage.enterPassword(LoginPage.java:27) ~[classes/:?]
-	at org.orangehrm.tests.LoginTest.invalidLogin(LoginTest.java:50) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
-	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-2025-09-18 17:57:15 INFO  utils.LogUtil - Browser closed for test: invalidLogin
-2025-09-18 17:57:16 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-09-25 09:57:43 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20250925_095742.html
-2025-09-25 09:58:08 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-25 09:58:08 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-25 09:58:08 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-09-25 09:58:08 INFO  utils.LogUtil - LoginPage initialized
-2025-09-25 09:58:10 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-09-25 09:58:20 ERROR utils.LogUtil - FAILED: invalidLogin
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.name: passwor (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63522}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63522/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 35d414cd8386524155206d7ed6873728
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.33.0.jar:?]
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.33.0.jar:?]
-	at com.orangehrm.pages.BasePage.type(BasePage.java:55) ~[classes/:?]
-	at com.orangehrm.pages.LoginPage.enterPassword(LoginPage.java:27) ~[classes/:?]
-	at org.orangehrm.tests.LoginTest.invalidLogin(LoginTest.java:50) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
-	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169) [surefire-testng-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88) [surefire-testng-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.1.2.jar:3.1.2]
-2025-09-25 09:58:20 INFO  utils.LogUtil - Browser closed for test: invalidLogin
-2025-09-25 09:58:27 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-25 09:58:27 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-25 09:58:27 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-09-25 09:58:27 INFO  utils.LogUtil - LoginPage initialized
-2025-09-25 09:58:28 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-09-25 09:58:38 ERROR utils.LogUtil - FAILED: login
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.name: passwor (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55636}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55636/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e02c4e54f46e86891326dd506e2da2a
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.33.0.jar:?]
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.33.0.jar:?]
-	at com.orangehrm.pages.BasePage.type(BasePage.java:55) ~[classes/:?]
-	at com.orangehrm.pages.LoginPage.enterPassword(LoginPage.java:27) ~[classes/:?]
-	at org.orangehrm.tests.LoginTest.login(LoginTest.java:35) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
-	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169) [surefire-testng-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88) [surefire-testng-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.1.2.jar:3.1.2]
-2025-09-25 09:58:38 INFO  utils.LogUtil - Browser closed for test: login
-2025-09-25 09:58:45 INFO  utils.LogUtil - Browser launched: chrome
-2025-09-25 09:58:45 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-09-25 09:58:45 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-09-25 09:58:45 INFO  utils.LogUtil - LoginPage initialized
-2025-09-25 09:58:46 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-09-25 09:58:56 ERROR utils.LogUtil - FAILED: login
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.name: passwor (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57998}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57998/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 557e1bda75e95a77a2c2dde909999e1a
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.33.0.jar:?]
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.33.0.jar:?]
-	at com.orangehrm.pages.BasePage.type(BasePage.java:55) ~[classes/:?]
-	at com.orangehrm.pages.LoginPage.enterPassword(LoginPage.java:27) ~[classes/:?]
-	at org.orangehrm.tests.LoginTest.login(LoginTest.java:35) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
-	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169) [surefire-testng-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88) [surefire-testng-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.1.2.jar:3.1.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.1.2.jar:3.1.2]
-2025-09-25 09:58:57 INFO  utils.LogUtil - Browser closed for test: login
-2025-09-25 09:58:57 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-09 14:48:45 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251009_144845.html
-2025-10-09 14:48:46 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-09 14:49:32 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251009_144931.html
-2025-10-09 14:49:32 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-09 14:49:54 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251009_144953.html
-2025-10-09 14:49:54 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-09 14:50:22 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251009_145022.html
-2025-10-09 14:50:35 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-09 14:50:35 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-09 14:50:35 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-09 14:50:35 INFO  utils.LogUtil - LoginPage initialized
-2025-10-09 14:50:35 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-09 14:50:35 INFO  utils.LogUtil - Dashboard page initialized
-2025-10-09 14:50:36 INFO  utils.LogUtil - Typed 'Admin' into: By.name: username
-2025-10-09 14:50:36 INFO  utils.LogUtil - Typed 'admin123' into: By.name: username
-2025-10-09 14:50:36 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-10-09 14:50:46 ERROR utils.LogUtil - FAILED: verifyDashboardLoad
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.cssSelector: .oxd-brand-banner (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.33.0.jar:?]
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.33.0.jar:?]
-	at com.orangehrm.pages.DashboardPage.brandBannerVerify(DashboardPage.java:25) ~[classes/:?]
-	at org.orangehrm.tests.DashboardTest.verifyDashboardLoad(DashboardTest.java:35) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
-	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".oxd-brand-banner"}
-  (Session info: chrome=141.0.7390.54)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [74b954654b094938be820bfe87462293, findElement {value=.oxd-brand-banner, using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.65 (b2ec783d2b51..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49675}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49675/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 74b954654b094938be820bfe87462293
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.33.0.jar:?]
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.33.0.jar:?]
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.33.0.jar:?]
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.33.0.jar:?]
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.33.0.jar:?]
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.33.0.jar:?]
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544) ~[selenium-remote-driver-4.33.0.jar:?]
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.33.0.jar:?]
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.33.0.jar:?]
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367) ~[selenium-remote-driver-4.33.0.jar:?]
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361) ~[selenium-remote-driver-4.33.0.jar:?]
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171) ~[selenium-support-4.33.0.jar:?]
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168) ~[selenium-support-4.33.0.jar:?]
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.33.0.jar:?]
-	... 29 more
-2025-10-09 14:50:47 INFO  utils.LogUtil - Browser closed for test: verifyDashboardLoad
-2025-10-09 14:50:47 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-09 14:51:00 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251009_145100.html
-2025-10-09 14:51:05 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-09 14:51:05 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-09 14:51:05 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-09 14:51:05 INFO  utils.LogUtil - LoginPage initialized
-2025-10-09 14:51:05 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-09 14:51:05 INFO  utils.LogUtil - Dashboard page initialized
-2025-10-09 14:51:07 INFO  utils.LogUtil - Typed 'Admin' into: By.name: username
-2025-10-09 14:51:07 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
-2025-10-09 14:51:07 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-10-09 14:51:09 INFO  utils.LogUtil - Dashboard load time is less than 3000 ms :1439ms
-2025-10-09 14:51:09 INFO  utils.LogUtil - PASSED: verifyDashboardLoad
-2025-10-09 14:51:09 INFO  utils.LogUtil - Browser closed for test: verifyDashboardLoad
-2025-10-09 14:51:10 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-09 14:51:37 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251009_145136.html
-2025-10-09 14:51:42 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-09 14:51:42 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-09 14:51:42 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-09 14:51:42 INFO  utils.LogUtil - LoginPage initialized
-2025-10-09 14:51:42 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-09 14:51:42 INFO  utils.LogUtil - Dashboard page initialized
-2025-10-09 14:51:42 INFO  utils.LogUtil - Typed 'Admin' into: By.name: username
-2025-10-09 14:51:43 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
-2025-10-09 14:51:43 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-10-09 14:51:44 INFO  utils.LogUtil - Dashboard load time is less than 3000 ms :1494ms
-2025-10-09 14:51:44 INFO  utils.LogUtil - PASSED: verifyDashboardLoad
-2025-10-09 14:51:45 INFO  utils.LogUtil - Browser closed for test: verifyDashboardLoad
-2025-10-09 14:51:45 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-09 14:52:55 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251009_145254.html
-2025-10-09 14:52:59 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-09 14:52:59 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-09 14:52:59 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-09 14:52:59 INFO  utils.LogUtil - LoginPage initialized
-2025-10-09 14:52:59 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-09 14:52:59 INFO  utils.LogUtil - Dashboard page initialized
-2025-10-09 14:53:00 INFO  utils.LogUtil - Typed 'Admin' into: By.name: username
-2025-10-09 14:53:00 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
-2025-10-09 14:53:01 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-10-09 14:53:02 INFO  utils.LogUtil - Dashboard load time is less than 3000 ms :1480ms
-2025-10-09 14:53:02 INFO  utils.LogUtil - PASSED: verifyDashboardLoad
-2025-10-09 14:53:03 INFO  utils.LogUtil - Browser closed for test: verifyDashboardLoad
-2025-10-09 14:53:03 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-09 14:57:03 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251009_145703.html
-2025-10-09 14:57:08 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-09 14:57:08 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-09 14:57:08 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-09 14:57:08 INFO  utils.LogUtil - LoginPage initialized
-2025-10-09 14:57:08 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-09 14:57:08 INFO  utils.LogUtil - Dashboard page initialized
-2025-10-09 14:57:09 INFO  utils.LogUtil - Typed 'Admin' into: By.name: username
-2025-10-09 14:57:09 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
-2025-10-09 14:57:09 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-10-09 14:57:11 INFO  utils.LogUtil - Dashboard load time is less than 3000 ms :1404ms
-2025-10-09 14:57:11 INFO  utils.LogUtil - PASSED: verifyDashboardLoad
-2025-10-09 14:57:11 INFO  utils.LogUtil - Browser closed for test: verifyDashboardLoad
-2025-10-09 14:57:11 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-09 15:44:44 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251009_154443.html
-2025-10-09 15:44:48 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-09 15:44:48 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-09 15:44:48 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-09 15:44:48 INFO  utils.LogUtil - Dashboard page initialized
-2025-10-09 15:44:48 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-09 15:44:48 INFO  utils.LogUtil - LoginPage initialized
-2025-10-09 15:44:49 INFO  utils.LogUtil - Typed 'Admin' into: By.name: username
-2025-10-09 15:44:49 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
-2025-10-09 15:44:50 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-10-09 15:44:51 INFO  utils.LogUtil - Dashboard load time is less than 3000 ms :1484ms
-2025-10-09 15:44:51 INFO  utils.LogUtil - PASSED: verifyDashboardLoad
-2025-10-09 15:44:51 INFO  utils.LogUtil - Browser closed for test: verifyDashboardLoad
-2025-10-09 15:44:52 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-10 10:20:35 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251010_102035.html
-2025-10-10 10:20:47 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-10 10:20:47 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-10 10:20:47 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-10 10:20:47 INFO  utils.LogUtil - LoginPage initialized
-2025-10-10 10:20:48 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-10-10 10:20:48 INFO  utils.LogUtil - Typed 'admin' into: By.name: password
-2025-10-10 10:20:48 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-10-10 10:20:49 INFO  utils.LogUtil - Expected URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login | Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-10 10:20:50 INFO  utils.LogUtil - PASSED: invalidLogin
-2025-10-10 10:20:50 INFO  utils.LogUtil - Browser closed for test: invalidLogin
-2025-10-10 10:20:54 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-10 10:20:54 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-10 10:20:54 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-10 10:20:54 INFO  utils.LogUtil - LoginPage initialized
-2025-10-10 10:20:55 INFO  utils.LogUtil - Typed 'admin' into: By.name: username
-2025-10-10 10:20:55 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
-2025-10-10 10:20:56 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-10-10 10:20:57 INFO  utils.LogUtil - Expected URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index | Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
-2025-10-10 10:20:59 INFO  utils.LogUtil - PASSED: login
-2025-10-10 10:21:00 INFO  utils.LogUtil - Browser closed for test: login
-2025-10-10 10:21:04 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-10 10:21:04 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-10 10:21:04 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-10 10:21:04 INFO  utils.LogUtil - Dashboard page initialized
-2025-10-10 10:21:04 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-10 10:21:04 INFO  utils.LogUtil - LoginPage initialized
-2025-10-10 10:21:05 INFO  utils.LogUtil - Typed 'Admin' into: By.name: username
-2025-10-10 10:21:05 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
-2025-10-10 10:21:06 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-10-10 10:21:07 INFO  utils.LogUtil - Dashboard load time is less than 3000 ms :1445ms
-2025-10-10 10:21:07 INFO  utils.LogUtil - PASSED: verifyDashboardLoad
-2025-10-10 10:21:07 INFO  utils.LogUtil - Browser closed for test: verifyDashboardLoad
-2025-10-10 10:21:07 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-10 11:55:21 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251010_115520.html
-2025-10-10 11:55:29 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-10 11:55:29 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-10 11:55:29 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-10 11:55:29 INFO  utils.LogUtil - Dashboard page initialized
-2025-10-10 11:55:29 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-10 11:55:29 INFO  utils.LogUtil - LoginPage initialized
-2025-10-10 11:55:30 INFO  utils.LogUtil - Typed 'Admin' into: By.name: username
-2025-10-10 11:55:30 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
-2025-10-10 11:55:31 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-10-10 11:55:32 INFO  utils.LogUtil - Logo is visible on dashboard page.
-2025-10-10 11:55:32 INFO  utils.LogUtil - PASSED: verifyDashboardHeaderElementsLogo
-2025-10-10 11:55:33 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElementsLogo
-2025-10-10 11:55:34 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-13 15:48:09 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251013_154808.html
-2025-10-13 15:48:17 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-13 15:48:17 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-13 15:48:17 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-13 15:48:17 INFO  utils.LogUtil - Dashboard page initialized
-2025-10-13 15:48:17 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-13 15:48:17 INFO  utils.LogUtil - LoginPage initialized
-2025-10-13 15:48:18 INFO  utils.LogUtil - Typed 'Admin' into: By.name: username
-2025-10-13 15:48:18 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
-2025-10-13 15:48:19 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-10-13 15:48:30 ERROR utils.LogUtil - FAILED: verifyDashboardHeaderElementsLogo
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //img[contains(@src,'log123')] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.66, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59254}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59254/devtoo..., se:cdpVersion: 141.0.7390.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cc6683cb74ef50c5c55f5b85580c57d6
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.33.0.jar:?]
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.33.0.jar:?]
-	at com.orangehrm.pages.DashboardPage.verifyLogo(DashboardPage.java:39) ~[classes/:?]
-	at org.orangehrm.tests.DashboardTest.verifyDashboardHeaderElementsLogo(DashboardTest.java:43) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
-	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-2025-10-13 15:48:30 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElementsLogo
-2025-10-13 15:48:31 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-13 16:07:35 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251013_160735.html
-2025-10-13 16:07:41 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-13 16:07:41 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-13 16:07:41 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-13 16:07:41 INFO  utils.LogUtil - LoginPage initialized
-2025-10-13 16:07:42 ERROR utils.LogUtil - Text verification failed: Text mismatch! Expected: Usernam | Actual: Username
-2025-10-13 16:07:42 ERROR utils.LogUtil - FAILED: login
-java.lang.RuntimeException: java.lang.Exception: Text mismatch! Expected: Usernam | Actual: Username
-	at com.orangehrm.pages.BasePage.verifyText(BasePage.java:177) ~[classes/:?]
-	at org.orangehrm.tests.LoginTest.login(LoginTest.java:34) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
-	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-Caused by: java.lang.Exception: Text mismatch! Expected: Usernam | Actual: Username
-	at com.orangehrm.pages.BasePage.verifyText(BasePage.java:168) ~[classes/:?]
-	... 28 more
-2025-10-13 16:07:42 INFO  utils.LogUtil - Browser closed for test: login
-2025-10-13 16:07:43 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-13 16:12:50 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251013_161249.html
-2025-10-13 16:12:59 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-13 16:12:59 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-13 16:12:59 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-13 16:12:59 INFO  utils.LogUtil - LoginPage initialized
-2025-10-13 16:13:00 ERROR utils.LogUtil - Text verification failed: Text mismatch! Expected: Usernam | Actual: Username
-2025-10-13 16:13:01 ERROR utils.LogUtil - FAILED: login
-java.lang.RuntimeException: java.lang.Exception: Text mismatch! Expected: Usernam | Actual: Username
-	at com.orangehrm.pages.BasePage.verifyText(BasePage.java:177) ~[classes/:?]
-	at org.orangehrm.tests.LoginTest.login(LoginTest.java:34) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
-	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-Caused by: java.lang.Exception: Text mismatch! Expected: Usernam | Actual: Username
-	at com.orangehrm.pages.BasePage.verifyText(BasePage.java:168) ~[classes/:?]
-	... 28 more
-2025-10-13 16:13:01 INFO  utils.LogUtil - Browser closed for test: login
-2025-10-13 16:13:01 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-13 16:26:23 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251013_162623.html
-2025-10-13 16:26:29 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-13 16:26:29 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-13 16:26:29 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-13 16:26:29 INFO  utils.LogUtil - LoginPage initialized
-2025-10-13 16:26:30 ERROR utils.LogUtil - Text verification failed: Text mismatch! Expected: Usernam | Actual: Username
-2025-10-13 16:26:30 ERROR utils.LogUtil - FAILED: login
-java.lang.RuntimeException: java.lang.Exception: Text mismatch! Expected: Usernam | Actual: Username
-	at com.orangehrm.pages.BasePage.verifyText(BasePage.java:177) ~[classes/:?]
-	at org.orangehrm.tests.LoginTest.login(LoginTest.java:34) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
-	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-Caused by: java.lang.Exception: Text mismatch! Expected: Usernam | Actual: Username
-	at com.orangehrm.pages.BasePage.verifyText(BasePage.java:168) ~[classes/:?]
-	... 28 more
-2025-10-13 16:26:30 INFO  utils.LogUtil - Browser closed for test: login
-2025-10-13 16:26:31 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-13 16:42:30 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251013_164230.html
-2025-10-13 16:42:36 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-13 16:42:36 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-13 16:42:36 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-13 16:42:36 INFO  utils.LogUtil - LoginPage initialized
-2025-10-13 16:42:46 ERROR utils.LogUtil - Text verification failed: Expected condition failed: waiting for visibility of element located by By.xpath: //label[contains(text(),'Username')] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.66, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49696}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49696/devtoo..., se:cdpVersion: 141.0.7390.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 24218e53b5fb687b346c3ba3fe5c9af4
-2025-10-13 16:42:46 ERROR utils.LogUtil - FAILED: verifyLoginPageText
-java.lang.RuntimeException: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //label[contains(text(),'Username')] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.66, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49696}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49696/devtoo..., se:cdpVersion: 141.0.7390.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 24218e53b5fb687b346c3ba3fe5c9af4
-	at com.orangehrm.pages.BasePage.verifyText(BasePage.java:177) ~[classes/:?]
-	at com.orangehrm.pages.LoginPage.verifyUsernameLabelText(LoginPage.java:38) ~[classes/:?]
-	at org.orangehrm.tests.LoginTest.verifyLoginPageText(LoginTest.java:60) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
-	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //label[contains(text(),'Username')] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.66, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49696}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49696/devtoo..., se:cdpVersion: 141.0.7390.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 24218e53b5fb687b346c3ba3fe5c9af4
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.33.0.jar:?]
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.33.0.jar:?]
-	at com.orangehrm.pages.BasePage.verifyText(BasePage.java:164) ~[classes/:?]
-	... 29 more
-2025-10-13 16:42:46 INFO  utils.LogUtil - Browser closed for test: verifyLoginPageText
-2025-10-13 16:42:47 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-23 17:14:36 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElements
+2025-10-23 17:14:36 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-23 17:19:19 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_171919.html
+2025-10-23 17:19:24 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-23 17:19:24 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-23 17:19:27 INFO  utils.LogUtil - Logo is visible.
+2025-10-23 17:19:27 INFO  utils.LogUtil - Help Icon is visible.
+2025-10-23 17:19:28 INFO  utils.LogUtil - User Profile Icon is visible.
+2025-10-23 17:19:28 INFO  utils.LogUtil - PASSED: verifyDashboardHeaderElements
+2025-10-23 17:19:28 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElements
+2025-10-23 17:19:28 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-24 11:26:45 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251024_112645.html
+2025-10-24 11:26:52 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-24 11:26:52 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-24 11:26:54 INFO  utils.LogUtil - Dashboard URL after invalid login verified: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-24 11:26:54 INFO  utils.LogUtil - PASSED: negativeLoginTest
+2025-10-24 11:26:54 INFO  utils.LogUtil - Browser closed for test: negativeLoginTest
+2025-10-24 11:26:59 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-24 11:26:59 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-24 11:27:01 INFO  utils.LogUtil - Dashboard URL verified: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-10-24 11:27:03 INFO  utils.LogUtil - Logged out successfully
+2025-10-24 11:27:03 INFO  utils.LogUtil - PASSED: positiveLoginTest
+2025-10-24 11:27:04 INFO  utils.LogUtil - Browser closed for test: positiveLoginTest
+2025-10-24 11:27:08 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-24 11:27:08 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-24 11:27:08 INFO  utils.LogUtil - Username label verified: Username
+2025-10-24 11:27:08 INFO  utils.LogUtil - PASSED: verifyUsernameLabel
+2025-10-24 11:27:09 INFO  utils.LogUtil - Browser closed for test: verifyUsernameLabel
+2025-10-24 11:27:13 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-24 11:27:13 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-24 11:27:16 INFO  utils.LogUtil - Logo is visible.
+2025-10-24 11:27:16 INFO  utils.LogUtil - Help Icon is visible.
+2025-10-24 11:27:16 INFO  utils.LogUtil - User Profile Icon is visible.
+2025-10-24 11:27:16 INFO  utils.LogUtil - PASSED: verifyDashboardHeaderElements
+2025-10-24 11:27:17 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElements
+2025-10-24 11:27:21 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-24 11:27:21 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-24 11:27:24 INFO  utils.LogUtil - Dashboard loaded in: 2149 ms
+2025-10-24 11:27:24 INFO  utils.LogUtil - PASSED: verifyDashboardLoadTime
+2025-10-24 11:27:24 INFO  utils.LogUtil - Browser closed for test: verifyDashboardLoadTime
+2025-10-24 11:27:28 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-24 11:27:28 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-24 11:27:31 INFO  utils.LogUtil - Dashboard title verified: Dashboard
+2025-10-24 11:27:31 INFO  utils.LogUtil - PASSED: verifyDashboardTitle
+2025-10-24 11:27:31 INFO  utils.LogUtil - Browser closed for test: verifyDashboardTitle
+2025-10-24 11:27:35 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-24 11:27:35 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-24 11:27:38 INFO  utils.LogUtil - Admin Tab is visible.
+2025-10-24 11:27:38 INFO  utils.LogUtil - PIM Tab is visible.
+2025-10-24 11:27:38 INFO  utils.LogUtil - Leave Tab is visible.
+2025-10-24 11:27:38 INFO  utils.LogUtil - PASSED: verifyLeftNavigationMenu
+2025-10-24 11:27:39 INFO  utils.LogUtil - Browser closed for test: verifyLeftNavigationMenu
+2025-10-24 11:27:39 INFO  utils.LogUtil - Extent Report flushed successfully
