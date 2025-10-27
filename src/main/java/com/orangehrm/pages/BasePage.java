@@ -65,6 +65,7 @@ public class BasePage {
 
     public WebElement type(By locator, String text) {
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        highlightElement(element);
         element.clear();
         element.sendKeys(text);
         return element;
@@ -72,6 +73,7 @@ public class BasePage {
 
     public WebElement click(By locator) {
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+        highlightElement(element);
         element.click();
         return element;
     }

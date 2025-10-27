@@ -111,6 +111,7 @@ public class LoginTest extends BaseTest {
         loginPage.clickSubmit();
 
         boolean urlVerified = verifyUrlWithSoftAssert(testData.get("DashboardUrl"), "Dashboard URL");
+
         softAssert.assertAll();
 
         logout();

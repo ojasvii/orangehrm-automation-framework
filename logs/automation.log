@@ -1,368 +1,42 @@
-2025-10-23 15:04:40 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_150439.html
-2025-10-23 15:04:52 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-23 15:04:52 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 15:04:52 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-23 15:04:52 INFO  utils.LogUtil - Dashboard page initialized
-2025-10-23 15:04:52 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-23 15:04:52 INFO  utils.LogUtil - LoginPage initialized
-2025-10-23 15:04:52 INFO  utils.LogUtil - Typed 'Admin' into: By.name: username
-2025-10-23 15:04:53 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
-2025-10-23 15:04:53 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-10-23 15:04:55 INFO  utils.LogUtil - Dashboard is displayed
-2025-10-23 15:04:55 INFO  utils.LogUtil - PASSED: verifyDashboardTitle
-2025-10-23 15:04:55 INFO  utils.LogUtil - Browser closed for test: verifyDashboardTitle
-2025-10-23 15:04:55 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-23 15:07:10 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_150710.html
-2025-10-23 15:07:15 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-23 15:07:15 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 15:07:15 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-23 15:07:15 INFO  utils.LogUtil - Dashboard page initialized
-2025-10-23 15:07:15 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-23 15:07:15 INFO  utils.LogUtil - LoginPage initialized
-2025-10-23 15:07:16 INFO  utils.LogUtil - Typed 'Admin' into: By.name: username
-2025-10-23 15:07:16 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
-2025-10-23 15:07:16 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-10-23 15:07:18 INFO  utils.LogUtil - Dashboar is displayed
-2025-10-23 15:07:18 INFO  utils.LogUtil - PASSED: verifyDashboardTitle
-2025-10-23 15:07:18 INFO  utils.LogUtil - Browser closed for test: verifyDashboardTitle
-2025-10-23 15:07:19 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-23 15:08:08 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_150807.html
-2025-10-23 15:08:12 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-23 15:08:12 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 15:08:12 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-23 15:08:12 INFO  utils.LogUtil - Dashboard page initialized
-2025-10-23 15:08:12 INFO  utils.LogUtil - WebDriver initialized in BasePage
-2025-10-23 15:08:12 INFO  utils.LogUtil - LoginPage initialized
-2025-10-23 15:08:13 INFO  utils.LogUtil - Typed 'Admin' into: By.name: username
-2025-10-23 15:08:14 INFO  utils.LogUtil - Typed 'admin123' into: By.name: password
-2025-10-23 15:08:14 INFO  utils.LogUtil - Clicked element: By.xpath: //button[@type='submit']
-2025-10-23 15:08:16 INFO  utils.LogUtil - Dashboar is displayed
-2025-10-23 15:08:16 INFO  utils.LogUtil - PASSED: verifyDashboardTitle
-2025-10-23 15:08:16 INFO  utils.LogUtil - Browser closed for test: verifyDashboardTitle
-2025-10-23 15:08:16 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-23 15:51:50 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_155150.html
-2025-10-23 15:51:57 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-23 15:51:57 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 15:52:18 INFO  utils.LogUtil - Logo is visible.
-2025-10-23 15:52:18 INFO  utils.LogUtil - Help Ico is visible.
-2025-10-23 15:52:18 INFO  utils.LogUtil - User Profile Icon is visible.
-2025-10-23 15:52:18 INFO  utils.LogUtil - PASSED: verifyDashboardHeaderElements
-2025-10-23 15:52:19 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElements
-2025-10-23 15:52:19 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-23 15:53:25 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_155325.html
-2025-10-23 15:53:32 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-23 15:53:32 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 15:53:46 INFO  utils.LogUtil - Logo is visible.
-2025-10-23 15:53:56 ERROR utils.LogUtil - Help Ico is not visible.
-2025-10-23 15:53:56 INFO  utils.LogUtil - User Profile Icon is visible.
-2025-10-23 15:53:56 ERROR utils.LogUtil - FAILED: verifyDashboardHeaderElements
-java.lang.AssertionError: The following asserts failed:
-	Help Ico is not visible. expected [true] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30) ~[testng-7.10.2.jar:7.10.2]
-	at org.orangehrm.tests.DashboardTest.verifyDashboardHeaderElements(DashboardTest.java:139) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
-	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-2025-10-23 15:53:56 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElements
-2025-10-23 15:53:57 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-23 15:55:19 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_155519.html
-2025-10-23 15:55:27 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-23 15:55:27 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 15:55:42 INFO  utils.LogUtil - Dashboard URL after invalid login verified: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 15:55:42 INFO  utils.LogUtil - PASSED: negativeLoginTest
-2025-10-23 15:55:43 INFO  utils.LogUtil - Browser closed for test: negativeLoginTest
-2025-10-23 15:55:51 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-23 15:55:51 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 15:56:06 INFO  utils.LogUtil - Dashboard URL verified: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
-2025-10-23 15:56:21 INFO  utils.LogUtil - Logged out successfully
-2025-10-23 15:56:21 INFO  utils.LogUtil - PASSED: positiveLoginTest
-2025-10-23 15:56:22 INFO  utils.LogUtil - Browser closed for test: positiveLoginTest
-2025-10-23 15:56:31 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-23 15:56:31 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 15:56:35 INFO  utils.LogUtil - Username label verified: Username
-2025-10-23 15:56:35 INFO  utils.LogUtil - PASSED: verifyUsernameLabel
-2025-10-23 15:56:35 INFO  utils.LogUtil - Browser closed for test: verifyUsernameLabel
-2025-10-23 15:56:43 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-23 15:56:43 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 15:57:06 ERROR utils.LogUtil - Logo is not visible.
-2025-10-23 15:57:17 ERROR utils.LogUtil - Help Ico is not visible.
-2025-10-23 15:57:17 INFO  utils.LogUtil - User Profile Icon is visible.
-2025-10-23 15:57:17 ERROR utils.LogUtil - FAILED: verifyDashboardHeaderElements
-java.lang.AssertionError: The following asserts failed:
-	Logo is not visible. expected [true] but found [false],
-	Help Ico is not visible. expected [true] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30) ~[testng-7.10.2.jar:7.10.2]
-	at org.orangehrm.tests.DashboardTest.verifyDashboardHeaderElements(DashboardTest.java:139) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
-	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-2025-10-23 15:57:17 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElements
-2025-10-23 15:57:28 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-23 15:57:28 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 15:57:50 ERROR utils.LogUtil - Dashboard load time exceeded 3000 ms: 18014
-2025-10-23 15:57:50 INFO  utils.LogUtil - PASSED: verifyDashboardLoadTime
-2025-10-23 15:57:51 INFO  utils.LogUtil - Browser closed for test: verifyDashboardLoadTime
-2025-10-23 15:58:01 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-23 15:58:01 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 15:58:22 INFO  utils.LogUtil - Dashboard title verified: Dashboard
-2025-10-23 15:58:22 INFO  utils.LogUtil - PASSED: verifyDashboardTitle
-2025-10-23 15:58:24 INFO  utils.LogUtil - Browser closed for test: verifyDashboardTitle
-2025-10-23 15:58:29 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-23 15:58:29 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 15:58:32 INFO  utils.LogUtil - Admin Tab is visible.
-2025-10-23 15:58:32 INFO  utils.LogUtil - PIM Tab is visible.
-2025-10-23 15:58:32 INFO  utils.LogUtil - Leave Tab is visible.
-2025-10-23 15:58:32 INFO  utils.LogUtil - PASSED: verifyLeftNavigationMenu
-2025-10-23 15:58:33 INFO  utils.LogUtil - Browser closed for test: verifyLeftNavigationMenu
-2025-10-23 15:58:33 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-23 16:42:23 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_164223.html
-2025-10-23 16:42:31 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-23 16:42:31 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 16:42:33 INFO  utils.LogUtil - Logo is visible.
-2025-10-23 16:42:44 ERROR utils.LogUtil - Help Ico is not visible.
-2025-10-23 16:42:44 INFO  utils.LogUtil - User Profile Icon is visible.
-2025-10-23 16:42:44 ERROR utils.LogUtil - FAILED: verifyDashboardHeaderElements
-java.lang.AssertionError: The following asserts failed:
-	Help Ico is not visible. expected [true] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30) ~[testng-7.10.2.jar:7.10.2]
-	at org.orangehrm.tests.DashboardTest.verifyDashboardHeaderElements(DashboardTest.java:139) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
-	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-2025-10-23 16:42:44 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElements
-2025-10-23 16:42:49 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-23 16:42:49 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 16:42:51 INFO  utils.LogUtil - Dashboard loaded in: 1850 ms
-2025-10-23 16:42:51 INFO  utils.LogUtil - PASSED: verifyDashboardLoadTime
-2025-10-23 16:42:52 INFO  utils.LogUtil - Browser closed for test: verifyDashboardLoadTime
-2025-10-23 16:42:56 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-23 16:42:56 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 16:42:59 INFO  utils.LogUtil - Dashboard title verified: Dashboard
-2025-10-23 16:42:59 INFO  utils.LogUtil - PASSED: verifyDashboardTitle
-2025-10-23 16:42:59 INFO  utils.LogUtil - Browser closed for test: verifyDashboardTitle
-2025-10-23 16:43:04 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-23 16:43:04 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 16:43:06 INFO  utils.LogUtil - Admin Tab is visible.
-2025-10-23 16:43:06 INFO  utils.LogUtil - PIM Tab is visible.
-2025-10-23 16:43:07 INFO  utils.LogUtil - Leave Tab is visible.
-2025-10-23 16:43:07 INFO  utils.LogUtil - PASSED: verifyLeftNavigationMenu
-2025-10-23 16:43:07 INFO  utils.LogUtil - Browser closed for test: verifyLeftNavigationMenu
-2025-10-23 16:43:07 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-23 16:50:09 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_165009.html
-2025-10-23 16:50:14 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-23 16:50:14 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 16:50:17 INFO  utils.LogUtil - Logo is visible.
-2025-10-23 16:50:27 ERROR utils.LogUtil - Help Ico is not visible.
-2025-10-23 16:50:27 INFO  utils.LogUtil - User Profile Icon is visible.
-2025-10-23 16:50:27 ERROR utils.LogUtil - FAILED: verifyDashboardHeaderElements
-java.lang.AssertionError: The following asserts failed:
-	Help Ico is not visible. expected [true] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30) ~[testng-7.10.2.jar:7.10.2]
-	at org.orangehrm.tests.DashboardTest.verifyDashboardHeaderElements(DashboardTest.java:139) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
-	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-2025-10-23 16:50:28 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElements
-2025-10-23 16:50:28 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-23 17:13:41 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_171340.html
-2025-10-23 17:13:47 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-23 17:13:47 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 17:13:49 INFO  utils.LogUtil - Admin Tab is visible.
-2025-10-23 17:13:49 INFO  utils.LogUtil - PIM Tab is visible.
-2025-10-23 17:13:50 INFO  utils.LogUtil - Leave Tab is visible.
-2025-10-23 17:13:50 INFO  utils.LogUtil - PASSED: verifyLeftNavigationMenu
-2025-10-23 17:13:50 INFO  utils.LogUtil - Browser closed for test: verifyLeftNavigationMenu
-2025-10-23 17:13:50 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-23 17:14:17 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_171416.html
-2025-10-23 17:14:22 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-23 17:14:22 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 17:14:24 INFO  utils.LogUtil - Logo is visible.
-2025-10-23 17:14:35 ERROR utils.LogUtil - Help Ico is not visible.
-2025-10-23 17:14:35 INFO  utils.LogUtil - User Profile Icon is visible.
-2025-10-23 17:14:35 ERROR utils.LogUtil - FAILED: verifyDashboardHeaderElements
-java.lang.AssertionError: The following asserts failed:
-	Exception while verifying : Help Ico,
-	Help Ico is not visible. expected [true] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30) ~[testng-7.10.2.jar:7.10.2]
-	at org.orangehrm.tests.DashboardTest.verifyDashboardHeaderElements(DashboardTest.java:140) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
-	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
-	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
-2025-10-23 17:14:36 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElements
-2025-10-23 17:14:36 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-23 17:19:19 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251023_171919.html
-2025-10-23 17:19:24 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-23 17:19:24 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-23 17:19:27 INFO  utils.LogUtil - Logo is visible.
-2025-10-23 17:19:27 INFO  utils.LogUtil - Help Icon is visible.
-2025-10-23 17:19:28 INFO  utils.LogUtil - User Profile Icon is visible.
-2025-10-23 17:19:28 INFO  utils.LogUtil - PASSED: verifyDashboardHeaderElements
-2025-10-23 17:19:28 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElements
-2025-10-23 17:19:28 INFO  utils.LogUtil - Extent Report flushed successfully
-2025-10-24 11:26:45 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251024_112645.html
-2025-10-24 11:26:52 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-24 11:26:52 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-24 11:26:54 INFO  utils.LogUtil - Dashboard URL after invalid login verified: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-24 11:26:54 INFO  utils.LogUtil - PASSED: negativeLoginTest
-2025-10-24 11:26:54 INFO  utils.LogUtil - Browser closed for test: negativeLoginTest
-2025-10-24 11:26:59 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-24 11:26:59 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-24 11:27:01 INFO  utils.LogUtil - Dashboard URL verified: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
-2025-10-24 11:27:03 INFO  utils.LogUtil - Logged out successfully
-2025-10-24 11:27:03 INFO  utils.LogUtil - PASSED: positiveLoginTest
-2025-10-24 11:27:04 INFO  utils.LogUtil - Browser closed for test: positiveLoginTest
-2025-10-24 11:27:08 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-24 11:27:08 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-24 11:27:08 INFO  utils.LogUtil - Username label verified: Username
-2025-10-24 11:27:08 INFO  utils.LogUtil - PASSED: verifyUsernameLabel
-2025-10-24 11:27:09 INFO  utils.LogUtil - Browser closed for test: verifyUsernameLabel
-2025-10-24 11:27:13 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-24 11:27:13 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-24 11:27:16 INFO  utils.LogUtil - Logo is visible.
-2025-10-24 11:27:16 INFO  utils.LogUtil - Help Icon is visible.
-2025-10-24 11:27:16 INFO  utils.LogUtil - User Profile Icon is visible.
-2025-10-24 11:27:16 INFO  utils.LogUtil - PASSED: verifyDashboardHeaderElements
-2025-10-24 11:27:17 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElements
-2025-10-24 11:27:21 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-24 11:27:21 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-24 11:27:24 INFO  utils.LogUtil - Dashboard loaded in: 2149 ms
-2025-10-24 11:27:24 INFO  utils.LogUtil - PASSED: verifyDashboardLoadTime
-2025-10-24 11:27:24 INFO  utils.LogUtil - Browser closed for test: verifyDashboardLoadTime
-2025-10-24 11:27:28 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-24 11:27:28 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-24 11:27:31 INFO  utils.LogUtil - Dashboard title verified: Dashboard
-2025-10-24 11:27:31 INFO  utils.LogUtil - PASSED: verifyDashboardTitle
-2025-10-24 11:27:31 INFO  utils.LogUtil - Browser closed for test: verifyDashboardTitle
-2025-10-24 11:27:35 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-24 11:27:35 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-24 11:27:38 INFO  utils.LogUtil - Admin Tab is visible.
-2025-10-24 11:27:38 INFO  utils.LogUtil - PIM Tab is visible.
-2025-10-24 11:27:38 INFO  utils.LogUtil - Leave Tab is visible.
-2025-10-24 11:27:38 INFO  utils.LogUtil - PASSED: verifyLeftNavigationMenu
-2025-10-24 11:27:39 INFO  utils.LogUtil - Browser closed for test: verifyLeftNavigationMenu
-2025-10-24 11:27:39 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-27 10:50:27 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251027_105026.html
+2025-10-27 10:50:36 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 10:50:36 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 10:50:38 INFO  utils.LogUtil - Dashboard URL after invalid login verified: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 10:50:38 INFO  utils.LogUtil - PASSED: negativeLoginTest
+2025-10-27 10:50:38 INFO  utils.LogUtil - Browser closed for test: negativeLoginTest
+2025-10-27 10:50:43 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 10:50:43 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 10:50:46 INFO  utils.LogUtil - Dashboard URL verified: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-10-27 10:50:49 INFO  utils.LogUtil - Logged out successfully
+2025-10-27 10:50:49 INFO  utils.LogUtil - PASSED: positiveLoginTest
+2025-10-27 10:50:49 INFO  utils.LogUtil - Browser closed for test: positiveLoginTest
+2025-10-27 10:50:56 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 10:50:56 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 10:50:56 INFO  utils.LogUtil - Username label verified: Username
+2025-10-27 10:50:56 INFO  utils.LogUtil - PASSED: verifyUsernameLabel
+2025-10-27 10:50:57 INFO  utils.LogUtil - Browser closed for test: verifyUsernameLabel
+2025-10-27 10:51:01 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 10:51:01 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 10:51:05 INFO  utils.LogUtil - Logo is visible.
+2025-10-27 10:51:05 INFO  utils.LogUtil - Help Icon is visible.
+2025-10-27 10:51:05 INFO  utils.LogUtil - User Profile Icon is visible.
+2025-10-27 10:51:05 INFO  utils.LogUtil - PASSED: verifyDashboardHeaderElements
+2025-10-27 10:51:05 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElements
+2025-10-27 10:51:11 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 10:51:11 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 10:51:15 INFO  utils.LogUtil - Dashboard loaded in: 1901 ms
+2025-10-27 10:51:15 INFO  utils.LogUtil - PASSED: verifyDashboardLoadTime
+2025-10-27 10:51:15 INFO  utils.LogUtil - Browser closed for test: verifyDashboardLoadTime
+2025-10-27 10:51:20 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 10:51:20 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 10:51:25 INFO  utils.LogUtil - Dashboard title verified: Dashboard
+2025-10-27 10:51:25 INFO  utils.LogUtil - PASSED: verifyDashboardTitle
+2025-10-27 10:51:25 INFO  utils.LogUtil - Browser closed for test: verifyDashboardTitle
+2025-10-27 10:51:31 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 10:51:31 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 10:51:35 INFO  utils.LogUtil - Admin Tab is visible.
+2025-10-27 10:51:35 INFO  utils.LogUtil - PIM Tab is visible.
+2025-10-27 10:51:35 INFO  utils.LogUtil - Leave Tab is visible.
+2025-10-27 10:51:35 INFO  utils.LogUtil - PASSED: verifyLeftNavigationMenu
+2025-10-27 10:51:35 INFO  utils.LogUtil - Browser closed for test: verifyLeftNavigationMenu
+2025-10-27 10:51:36 INFO  utils.LogUtil - Extent Report flushed successfully
