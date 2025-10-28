@@ -1,42 +1,623 @@
-2025-10-27 10:50:27 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251027_105026.html
-2025-10-27 10:50:36 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-27 10:50:36 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-27 10:50:38 INFO  utils.LogUtil - Dashboard URL after invalid login verified: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-27 10:50:38 INFO  utils.LogUtil - PASSED: negativeLoginTest
-2025-10-27 10:50:38 INFO  utils.LogUtil - Browser closed for test: negativeLoginTest
-2025-10-27 10:50:43 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-27 10:50:43 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-27 10:50:46 INFO  utils.LogUtil - Dashboard URL verified: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
-2025-10-27 10:50:49 INFO  utils.LogUtil - Logged out successfully
-2025-10-27 10:50:49 INFO  utils.LogUtil - PASSED: positiveLoginTest
-2025-10-27 10:50:49 INFO  utils.LogUtil - Browser closed for test: positiveLoginTest
-2025-10-27 10:50:56 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-27 10:50:56 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-27 10:50:56 INFO  utils.LogUtil - Username label verified: Username
-2025-10-27 10:50:56 INFO  utils.LogUtil - PASSED: verifyUsernameLabel
-2025-10-27 10:50:57 INFO  utils.LogUtil - Browser closed for test: verifyUsernameLabel
-2025-10-27 10:51:01 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-27 10:51:01 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-27 10:51:05 INFO  utils.LogUtil - Logo is visible.
-2025-10-27 10:51:05 INFO  utils.LogUtil - Help Icon is visible.
-2025-10-27 10:51:05 INFO  utils.LogUtil - User Profile Icon is visible.
-2025-10-27 10:51:05 INFO  utils.LogUtil - PASSED: verifyDashboardHeaderElements
-2025-10-27 10:51:05 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElements
-2025-10-27 10:51:11 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-27 10:51:11 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-27 10:51:15 INFO  utils.LogUtil - Dashboard loaded in: 1901 ms
-2025-10-27 10:51:15 INFO  utils.LogUtil - PASSED: verifyDashboardLoadTime
-2025-10-27 10:51:15 INFO  utils.LogUtil - Browser closed for test: verifyDashboardLoadTime
-2025-10-27 10:51:20 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-27 10:51:20 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-27 10:51:25 INFO  utils.LogUtil - Dashboard title verified: Dashboard
-2025-10-27 10:51:25 INFO  utils.LogUtil - PASSED: verifyDashboardTitle
-2025-10-27 10:51:25 INFO  utils.LogUtil - Browser closed for test: verifyDashboardTitle
-2025-10-27 10:51:31 INFO  utils.LogUtil - Browser launched: chrome
-2025-10-27 10:51:31 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2025-10-27 10:51:35 INFO  utils.LogUtil - Admin Tab is visible.
-2025-10-27 10:51:35 INFO  utils.LogUtil - PIM Tab is visible.
-2025-10-27 10:51:35 INFO  utils.LogUtil - Leave Tab is visible.
-2025-10-27 10:51:35 INFO  utils.LogUtil - PASSED: verifyLeftNavigationMenu
-2025-10-27 10:51:35 INFO  utils.LogUtil - Browser closed for test: verifyLeftNavigationMenu
-2025-10-27 10:51:36 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-27 13:42:37 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251027_134237.html
+2025-10-27 13:42:45 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 13:42:45 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 13:42:51 INFO  utils.LogUtil - Browser tab title is matched:OrangeHRM
+2025-10-27 13:42:51 INFO  utils.LogUtil - PASSED: verifyBrowserTabTitle
+2025-10-27 13:42:52 INFO  utils.LogUtil - Browser closed for test: verifyBrowserTabTitle
+2025-10-27 13:42:57 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 13:42:57 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 13:43:01 INFO  utils.LogUtil - Logo is visible.
+2025-10-27 13:43:02 INFO  utils.LogUtil - Help Icon is visible.
+2025-10-27 13:43:02 INFO  utils.LogUtil - User Profile Icon is visible.
+2025-10-27 13:43:02 INFO  utils.LogUtil - PASSED: verifyDashboardHeaderElements
+2025-10-27 13:43:02 INFO  utils.LogUtil - Browser closed for test: verifyDashboardHeaderElements
+2025-10-27 13:43:07 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 13:43:07 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 13:43:11 INFO  utils.LogUtil - Dashboard loaded in: 1915 ms
+2025-10-27 13:43:11 INFO  utils.LogUtil - PASSED: verifyDashboardLoadTime
+2025-10-27 13:43:11 INFO  utils.LogUtil - Browser closed for test: verifyDashboardLoadTime
+2025-10-27 13:43:16 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 13:43:16 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 13:43:19 INFO  utils.LogUtil - Dashboard title verified: Dashboard
+2025-10-27 13:43:19 INFO  utils.LogUtil - PASSED: verifyDashboardTitle
+2025-10-27 13:43:19 INFO  utils.LogUtil - Browser closed for test: verifyDashboardTitle
+2025-10-27 13:43:26 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 13:43:26 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 13:43:30 INFO  utils.LogUtil - Time At Work is visible.
+2025-10-27 13:43:30 INFO  utils.LogUtil - My Action is visible.
+2025-10-27 13:43:30 INFO  utils.LogUtil - Quick Launch is visible.
+2025-10-27 13:43:31 INFO  utils.LogUtil - Buzz Latest is visible.
+2025-10-27 13:43:31 INFO  utils.LogUtil - Employee leave Today is visible.
+2025-10-27 13:43:31 INFO  utils.LogUtil - Employee Distribution Unit is visible.
+2025-10-27 13:43:31 INFO  utils.LogUtil - PASSED: verifyDashboardWidgets
+2025-10-27 13:43:33 INFO  utils.LogUtil - Browser closed for test: verifyDashboardWidgets
+2025-10-27 13:43:38 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 13:43:38 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 13:43:42 INFO  utils.LogUtil - Admin Tab is visible.
+2025-10-27 13:43:42 INFO  utils.LogUtil - PIM Tab is visible.
+2025-10-27 13:43:43 INFO  utils.LogUtil - Leave Tab is visible.
+2025-10-27 13:43:43 INFO  utils.LogUtil - PASSED: verifyLeftNavigationMenu
+2025-10-27 13:43:43 INFO  utils.LogUtil - Browser closed for test: verifyLeftNavigationMenu
+2025-10-27 13:43:43 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-27 13:58:18 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251027_135817.html
+2025-10-27 13:58:23 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 13:58:23 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 13:58:27 INFO  utils.LogUtil - Time At Work is visible.
+2025-10-27 13:58:27 INFO  utils.LogUtil - My Action is visible.
+2025-10-27 13:58:28 INFO  utils.LogUtil - Quick Launch is visible.
+2025-10-27 13:58:28 INFO  utils.LogUtil - Buzz Latest is visible.
+2025-10-27 13:58:28 INFO  utils.LogUtil - Employee leave Today is visible.
+2025-10-27 13:58:28 INFO  utils.LogUtil - Employee Distribution Unit is visible.
+2025-10-27 13:58:29 INFO  utils.LogUtil - Employee Location is visible.
+2025-10-27 13:58:29 INFO  utils.LogUtil - PASSED: verifyDashboardWidgets
+2025-10-27 13:58:29 INFO  utils.LogUtil - Browser closed for test: verifyDashboardWidgets
+2025-10-27 13:58:29 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-27 15:49:58 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251027_154957.html
+2025-10-27 15:50:04 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 15:50:04 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 15:50:12 ERROR utils.LogUtil - FAILED: verifyMenuNavi
+java.lang.AssertionError: Url doesnot matchhttps://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsersadmin/viewSystemUsers expected [admin/viewSystemUsers] but found [https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:132) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertEquals(Assert.java:656) ~[testng-7.10.2.jar:7.10.2]
+	at org.orangehrm.tests.DashboardTest.verifyMenuNavigation(DashboardTest.java:183) ~[test-classes/:?]
+	at org.orangehrm.tests.DashboardTest.verifyMenuNavi(DashboardTest.java:135) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-10-27 15:50:12 INFO  utils.LogUtil - Browser closed for test: verifyMenuNavi
+2025-10-27 15:50:13 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-27 15:54:45 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251027_155444.html
+2025-10-27 15:54:49 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 15:54:49 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 15:54:56 ERROR utils.LogUtil - Header Mismatch: expected - Adminbut foundAdmin
+User Management
+2025-10-27 15:54:56 INFO  utils.LogUtil - Url Matched successfully
+2025-10-27 15:54:56 ERROR utils.LogUtil - FAILED: verifyMenuNavi
+java.lang.AssertionError: The following asserts failed:
+	Admin Nvigation is failed expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30) ~[testng-7.10.2.jar:7.10.2]
+	at org.orangehrm.tests.DashboardTest.verifyMenuNavi(DashboardTest.java:136) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-10-27 15:54:59 INFO  utils.LogUtil - Browser closed for test: verifyMenuNavi
+2025-10-27 15:54:59 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-27 15:57:50 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251027_155750.html
+2025-10-27 15:58:00 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 15:58:00 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 15:58:16 ERROR utils.LogUtil - FAILED: verifyMenuNavi
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //span[normalize-space()='Admin'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.77, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53424}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53424/devtoo..., se:cdpVersion: 141.0.7390.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f9835ebdda462d073dee860e06fd9220
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.33.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.33.0.jar:?]
+	at com.orangehrm.pages.BasePage.click(BasePage.java:75) ~[classes/:?]
+	at org.orangehrm.tests.DashboardTest.verifyMenuNavi(DashboardTest.java:134) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-10-27 15:58:16 INFO  utils.LogUtil - Browser closed for test: verifyMenuNavi
+2025-10-27 15:58:17 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-27 15:58:51 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251027_155850.html
+2025-10-27 15:59:03 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 15:59:03 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 15:59:24 ERROR utils.LogUtil - FAILED: verifyMenuNavi
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //span[normalize-space()='Admin'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.77, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\12382\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55481/devtoo..., se:cdpVersion: 141.0.7390.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc1f6d900c9923760fdb1db873528902
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.33.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.33.0.jar:?]
+	at com.orangehrm.pages.BasePage.click(BasePage.java:75) ~[classes/:?]
+	at org.orangehrm.tests.DashboardTest.verifyMenuNavi(DashboardTest.java:134) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-10-27 15:59:24 INFO  utils.LogUtil - Browser closed for test: verifyMenuNavi
+2025-10-27 15:59:25 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-27 16:29:37 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251027_162937.html
+2025-10-27 16:29:43 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 16:29:43 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 16:29:49 ERROR utils.LogUtil - FAILED: verifyMenuNavi
+java.lang.AssertionError: The following asserts failed:
+	Header of Admin doesnot match expected [Admin] but found [Admin
+User Management]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30) ~[testng-7.10.2.jar:7.10.2]
+	at org.orangehrm.tests.DashboardTest.verifyMenuNavi(DashboardTest.java:141) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-10-27 16:29:49 INFO  utils.LogUtil - Browser closed for test: verifyMenuNavi
+2025-10-27 16:29:50 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-27 16:46:13 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251027_164612.html
+2025-10-27 16:46:19 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 16:46:19 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 16:46:32 ERROR utils.LogUtil - FAILED: verifyMenuNavi
+java.lang.AssertionError: The following asserts failed:
+	Header of Admin doesnot match expected [Admin User Management] but found [Admin
+User Management],
+	Header of pim doesnot match expected [PI] but found [PIM],
+	Header of leave doesnot match expected [PIM] but found [Leave],
+	Header of time doesnot match expected [Time Timesheets] but found [Time]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30) ~[testng-7.10.2.jar:7.10.2]
+	at org.orangehrm.tests.DashboardTest.verifyMenuNavi(DashboardTest.java:158) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-10-27 16:46:33 INFO  utils.LogUtil - Browser closed for test: verifyMenuNavi
+2025-10-27 16:46:33 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-27 16:51:55 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251027_165154.html
+2025-10-27 16:52:01 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 16:52:01 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 16:52:12 ERROR utils.LogUtil - FAILED: verifyMenuNavi
+java.lang.AssertionError: The following asserts failed:
+	Header of Admin doesnot match expected [Admin User Management] but found [Admin
+User Management],
+	Header of time doesnot match expected [Time Timesheets] but found [Time]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30) ~[testng-7.10.2.jar:7.10.2]
+	at org.orangehrm.tests.DashboardTest.verifyMenuNavi(DashboardTest.java:158) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-10-27 16:52:12 INFO  utils.LogUtil - Browser closed for test: verifyMenuNavi
+2025-10-27 16:52:12 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-27 16:55:50 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251027_165549.html
+2025-10-27 16:55:56 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-27 16:55:56 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-27 16:56:04 ERROR utils.LogUtil - FAILED: verifyMenuNavi
+java.lang.RuntimeException: Failed to capture screenshot: Admin
+User Management_Failure
+	at utils.ScreenshotUtil.captureScreenshot(ScreenshotUtil.java:170) ~[classes/:?]
+	at utils.ScreenshotUtil.captureScreenshot(ScreenshotUtil.java:178) ~[classes/:?]
+	at org.orangehrm.tests.DashboardTest.verifyMenuNavi(DashboardTest.java:149) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: java.io.IOException: The filename, directory name, or volume label syntax is incorrect
+	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method) ~[?:?]
+	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:462) ~[?:?]
+	at java.base/java.io.File.getCanonicalPath(File.java:626) ~[?:?]
+	at org.apache.commons.io.FileUtils.requireCanonicalPathsNotEquals(FileUtils.java:2702) ~[commons-io-2.15.0.jar:2.15.0]
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:801) ~[commons-io-2.15.0.jar:2.15.0]
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:834) ~[commons-io-2.15.0.jar:2.15.0]
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:742) ~[commons-io-2.15.0.jar:2.15.0]
+	at utils.ScreenshotUtil.captureScreenshot(ScreenshotUtil.java:160) ~[classes/:?]
+	... 29 more
+2025-10-27 16:56:05 INFO  utils.LogUtil - Browser closed for test: verifyMenuNavi
+2025-10-27 16:56:05 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-28 14:03:46 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251028_140345.html
+2025-10-28 14:03:54 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-28 14:03:54 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-28 14:04:00 ERROR utils.LogUtil - Header Mismatch: expected - Admin User Managementbut foundAdmin
+User Management
+2025-10-28 14:04:00 INFO  utils.LogUtil - Url Matched successfully
+2025-10-28 14:04:01 ERROR utils.LogUtil - FAILED: verifyMenuNavi
+java.lang.AssertionError: The following asserts failed:
+	Exception while verifying : Admin User Management
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30) ~[testng-7.10.2.jar:7.10.2]
+	at org.orangehrm.tests.DashboardTest.verifyMenuNavi(DashboardTest.java:162) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-10-28 14:04:03 INFO  utils.LogUtil - Browser closed for test: verifyMenuNavi
+2025-10-28 14:04:03 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-28 14:07:39 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251028_140738.html
+2025-10-28 14:07:44 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-28 14:07:44 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-28 14:07:51 ERROR utils.LogUtil - Header Mismatch: expected - Admin User Managementbut foundAdmin
+User Management
+2025-10-28 14:07:51 INFO  utils.LogUtil - Url Matched successfully
+2025-10-28 14:07:51 ERROR utils.LogUtil - FAILED: verifyMenuNavi
+java.lang.AssertionError: The following asserts failed:
+	Exception while verifying : Expected - Admin User Management Actual Header text -Admin
+User Management
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30) ~[testng-7.10.2.jar:7.10.2]
+	at org.orangehrm.tests.DashboardTest.verifyMenuNavi(DashboardTest.java:161) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-10-28 14:07:51 INFO  utils.LogUtil - Browser closed for test: verifyMenuNavi
+2025-10-28 14:07:52 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-28 14:13:35 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251028_141334.html
+2025-10-28 14:13:41 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-28 14:13:41 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-28 14:13:46 INFO  utils.LogUtil - Header Matched successfully
+2025-10-28 14:13:46 INFO  utils.LogUtil - Url Matched successfully
+2025-10-28 14:13:46 INFO  utils.LogUtil - PASSED: verifyMenuNavi
+2025-10-28 14:13:47 INFO  utils.LogUtil - Browser closed for test: verifyMenuNavi
+2025-10-28 14:13:47 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-28 14:16:27 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251028_141627.html
+2025-10-28 14:16:33 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-28 14:16:33 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-28 14:16:39 ERROR utils.LogUtil - Header Mismatch: expected - Admin User Managementbut foundAdmin
+User Management
+2025-10-28 14:16:39 INFO  utils.LogUtil - Url Matched successfully
+2025-10-28 14:16:42 INFO  utils.LogUtil - Header Matched successfully
+2025-10-28 14:16:42 ERROR utils.LogUtil - Url Mismatch: expected - okjmbut foundhttps://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+2025-10-28 14:16:43 ERROR utils.LogUtil - FAILED: verifyMenuNavi
+java.lang.AssertionError: The following asserts failed:
+	Exception while verifying : Expected - Admin User Management Actual Header text -Admin
+User Management,
+	Exception while verifying : okjm
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30) ~[testng-7.10.2.jar:7.10.2]
+	at org.orangehrm.tests.DashboardTest.verifyMenuNavi(DashboardTest.java:160) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-10-28 14:16:43 INFO  utils.LogUtil - Browser closed for test: verifyMenuNavi
+2025-10-28 14:16:43 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-28 14:25:14 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251028_142513.html
+2025-10-28 14:25:19 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-28 14:25:19 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-28 14:25:25 ERROR utils.LogUtil - Header Mismatch: expected - Admin User Managementbut foundAdmin
+User Management
+2025-10-28 14:25:25 INFO  utils.LogUtil - Url Matched successfully
+2025-10-28 14:25:27 INFO  utils.LogUtil - Header Matched successfully
+2025-10-28 14:25:27 ERROR utils.LogUtil - Url Mismatch: expected - okjmbut foundhttps://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+2025-10-28 14:25:27 ERROR utils.LogUtil - FAILED: verifyMenuNavi
+java.lang.AssertionError: The following asserts failed:
+	Exception while verifying text: Expected - Admin User Management Actual Header text -Admin
+User Management,
+	Exception while verifying url : Expected - okjm Actual -https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30) ~[testng-7.10.2.jar:7.10.2]
+	at org.orangehrm.tests.DashboardTest.verifyMenuNavi(DashboardTest.java:160) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-10-28 14:25:28 INFO  utils.LogUtil - Browser closed for test: verifyMenuNavi
+2025-10-28 14:25:28 INFO  utils.LogUtil - Extent Report flushed successfully
+2025-10-28 14:31:58 INFO  utils.LogUtil - Extent Report initialized: D:\JG_PROJ\orange_hrm\reports\ExecutionReport_20251028_143158.html
+2025-10-28 14:32:04 INFO  utils.LogUtil - Browser launched: chrome
+2025-10-28 14:32:04 INFO  utils.LogUtil - URL launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-10-28 14:32:10 ERROR utils.LogUtil - Header Mismatch: expected - Admin User Managementbut foundAdmin
+User Management
+2025-10-28 14:32:10 INFO  utils.LogUtil - Url Matched successfully
+2025-10-28 14:32:11 INFO  utils.LogUtil - Header Matched successfully
+2025-10-28 14:32:11 INFO  utils.LogUtil - Url Matched successfully
+2025-10-28 14:32:14 INFO  utils.LogUtil - Header Matched successfully
+2025-10-28 14:32:14 INFO  utils.LogUtil - Url Matched successfully
+2025-10-28 14:32:16 ERROR utils.LogUtil - Header Mismatch: expected - Time Timesheetsbut foundTime
+2025-10-28 14:32:16 INFO  utils.LogUtil - Url Matched successfully
+2025-10-28 14:32:17 INFO  utils.LogUtil - Header Matched successfully
+2025-10-28 14:32:17 INFO  utils.LogUtil - Url Matched successfully
+2025-10-28 14:32:18 ERROR utils.LogUtil - FAILED: verifyMenuNavi
+java.lang.AssertionError: The following asserts failed:
+	Exception while verifying text: Expected - Admin User Management Actual Header text -Admin
+User Management,
+	Exception while verifying text: Expected - Time Timesheets Actual Header text -Time
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30) ~[testng-7.10.2.jar:7.10.2]
+	at org.orangehrm.tests.DashboardTest.verifyMenuNavi(DashboardTest.java:161) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-10-28 14:32:18 INFO  utils.LogUtil - Browser closed for test: verifyMenuNavi
+2025-10-28 14:32:18 INFO  utils.LogUtil - Extent Report flushed successfully

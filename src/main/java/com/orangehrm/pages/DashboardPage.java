@@ -149,6 +149,16 @@ public class DashboardPage extends BasePage {
     private final By pimTab = By.xpath("//span[normalize-space()='PIM']");
     private final By leaveTab = By.xpath("//span[normalize-space()='Leave']");
     private final By dashboardTitle = By.xpath("//div[@class='oxd-topbar-header-title']//h6");
+    private final By timeAtWork = By.xpath("//p[normalize-space()='Time at Work']");
+    private final By myAction = By.xpath("//p[normalize-space()='My Actions']");
+    private final By quickLaunch = By.xpath("//p[normalize-space()='Quick Launch']");
+    private final By buzzLatestPosts = By.xpath("//p[normalize-space()='Buzz Latest Posts']");
+    private final By employeesLeaveToday = By.xpath("//p[normalize-space()='Employees on Leave Today']");
+    private final By employeeDistributionUnit = By.xpath("//p[normalize-space()='Employee Distribution by Sub Unit']");
+    private final By employeeByLocation = By.xpath("//p[normalize-space()='Employee Distribution by Location']");
+
+
+
 
     public DashboardPage(WebDriver driver) {
         super(driver);
@@ -190,4 +200,34 @@ public class DashboardPage extends BasePage {
     public boolean isLeaveTabVisible() {
         return isElementVisible(leaveTab);
     }
+
+    public boolean isTimeAtWorkVisible(){
+        return isElementVisible(timeAtWork);
+    }
+
+    public boolean isMyActionVisible(){
+        return isElementVisible(myAction);
+    }
+
+    public boolean isQuickLaunchVisible(){
+        return isElementVisible(quickLaunch);
+    }
+
+    public boolean isEmployeeLeaveTodayVisible(){
+        return isElementVisible(employeesLeaveToday);
+    }
+
+    public boolean isBuzzLatestPostsVisible(){
+        return isElementVisible(buzzLatestPosts);
+    }
+
+    public boolean isEmployeeDistributionUnitVisible(){
+        return isElementVisible(employeeDistributionUnit);
+    }
+
+    public boolean isEmployeeDistributionByLocationVisible(){
+        return isElementVisible(employeeByLocation) ;
+    }
+
+
 }
